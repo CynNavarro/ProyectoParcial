@@ -17,6 +17,10 @@ export default function HomePage() {
           <div className="hero-content">
             <h1 className="hero-title">ASummerTenshi</h1>
             <p className="hero-subtitle">VTuber Artist &amp; Live 2D Rigger</p>
+            {/* Subtitulo temporal — Google Fonts: Cormorant Garamond */}
+            <p className="hero-gf-subtitle">
+              This subtitle is rendered using Google Fonts — Cormorant Garamond
+            </p>
           </div>
         </section>
 
