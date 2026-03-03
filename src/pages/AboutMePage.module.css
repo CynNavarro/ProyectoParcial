@@ -54,7 +54,7 @@
   text-transform: uppercase;
   color: rgba(255, 182, 198, 0.5);
 }
-/* ── Imagen de fondo — relativa al .content (siempre centrada) ─ */
+/* ── Imagen de fondo — centrada dentro del área oscura ─────── */
 .pageBg {
   position: absolute;
   top: 50%;
@@ -68,43 +68,47 @@
   pointer-events: none;
   user-select: none;
   z-index: 0;
+  /* mask: se desvanece en los bordes top y bottom para no salir del area negra */
   mask-image: linear-gradient(
     to bottom,
     transparent 0%,
-    rgba(0,0,0,0.6) 18%,
-    rgba(0,0,0,0.9) 40%,
-    rgba(0,0,0,0.9) 70%,
+    rgba(0,0,0,0.85) 12%,
+    rgba(0,0,0,1)    35%,
+    rgba(0,0,0,1)    65%,
+    rgba(0,0,0,0.85) 88%,
     transparent 100%
   );
   -webkit-mask-image: linear-gradient(
     to bottom,
     transparent 0%,
-    rgba(0,0,0,0.6) 18%,
-    rgba(0,0,0,0.9) 40%,
-    rgba(0,0,0,0.9) 70%,
+    rgba(0,0,0,0.85) 12%,
+    rgba(0,0,0,1)    35%,
+    rgba(0,0,0,1)    65%,
+    rgba(0,0,0,0.85) 88%,
     transparent 100%
   );
 }
-/* ── Layout una columna, centrado ───────────────────────────── */
+/* ── Layout ───────────────────────────────────────────────── */
 .content {
   position: relative;
+  overflow: hidden;           /* imagen no sangra fuera de esta sección */
   z-index: 1;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  padding: clamp(4rem, 8vw, 7rem) clamp(1.5rem, 10vw, 10rem);
-  max-width: 900px;
-  margin: 0 auto;
+  align-items: flex-start;    /* texto pegado a la izquierda */
+  padding: clamp(4rem, 8vw, 7rem) clamp(1.5rem, 8vw, 7rem);
   width: 100%;
   box-sizing: border-box;
 }
 
 /* ── Bloque de texto ──────────────────────────────────────── */
 .textBlock {
+  position: relative;
+  z-index: 1;
   display: flex;
   flex-direction: column;
   gap: 1.8rem;
-  width: 100%;
+  max-width: 520px;           /* ancho del bloque de texto */
 }
 
 /* ── Wrapper de párrafos ─────────────────────────────────── */
