@@ -1,0 +1,182 @@
+/* ── Paleta rosa pastel ────────────────────────────────────── */
+/* pink-1 #ffd6e0  pink-2 #ffb3c6  pink-3 #ff85a1             */
+/* pink-4 #ff6b8a  pink-5 #e8607a  pink-6 #ffc2d1             */
+
+/* ── Banner ─────────────────────────────────────────────────── */
+.banner {
+  position: relative;
+  width: 100%;
+  min-height: 38vh;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding-bottom: 3rem;
+}
+
+.bannerOverlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to bottom,
+    rgba(10, 5, 8, 0.5) 0%,
+    rgba(10, 5, 8, 0.85) 100%
+  );
+}
+
+.bannerContent {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.bannerTitle {
+  font-size: clamp(2rem, 6vw, 3.8rem);
+  font-weight: 800;
+  margin: 0;
+  letter-spacing: -0.02em;
+  background: linear-gradient(90deg, #ffd6e0, #ff85a1, #ffc2d1, #ff6b8a, #ffd6e0);
+  background-size: 300% 300%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradientShift 5s ease infinite;
+}
+
+.bannerSub {
+  margin: 0;
+  font-size: 0.8rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: rgba(255, 182, 198, 0.6);
+}
+
+/* ── Contenido ───────────────────────────────────────────────── */
+.content {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 3.5rem 1.5rem 5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+/* ── Sección ─────────────────────────────────────────────────── */
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid rgba(255, 133, 161, 0.1);
+}
+
+.section:last-of-type {
+  border-bottom: none;
+}
+
+.sectionTitle {
+  font-size: clamp(0.8rem, 2.5vw, 0.9rem);
+  font-weight: 700;
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid;
+}
+
+/* Tonos de rosa por sección */
+.pink1 { color: #ffd6e0; border-color: rgba(255, 214, 224, 0.25); }
+.pink2 { color: #ffb3c6; border-color: rgba(255, 179, 198, 0.25); }
+.pink3 { color: #ff85a1; border-color: rgba(255, 133, 161, 0.25); }
+.pink4 { color: #ffc2d1; border-color: rgba(255, 194, 209, 0.25); }
+.pink5 { color: #ffb3c6; border-color: rgba(255, 179, 198, 0.25); }
+.pink6 { color: #ff85a1; border-color: rgba(255, 133, 161, 0.25); }
+
+.block {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.blockTitle {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: rgba(255, 194, 209, 0.9);
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
+}
+
+.list li {
+  color: rgba(240, 220, 225, 0.72);
+  font-size: 0.9rem;
+  line-height: 1.65;
+  padding-left: 1rem;
+  position: relative;
+}
+
+.list li::before {
+  content: "–";
+  position: absolute;
+  left: 0;
+  color: rgba(255, 133, 161, 0.6);
+}
+
+.section p {
+  color: rgba(240, 220, 225, 0.68);
+  font-size: 0.9rem;
+  line-height: 1.65;
+  margin: 0;
+}
+
+.highlight {
+  color: #ffb3c6;
+  font-weight: 600;
+}
+
+.refund {
+  color: #ffd6e0;
+  font-weight: 600;
+}
+
+/* ── Imagen ──────────────────────────────────────────────────── */
+.imageWrapper {
+  display: flex;
+  justify-content: center;
+  padding: 1rem 0;
+}
+
+.pixelImg {
+  max-width: 100%;
+  width: auto;
+  max-height: 300px;
+  object-fit: contain;
+  image-rendering: pixelated;
+  border-radius: 10px;
+}
+
+/* ── Animación gradiente ─────────────────────────────────────── */
+@keyframes gradientShift {
+  0%   { background-position: 0% 50%; }
+  50%  { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* ── Responsive ──────────────────────────────────────────────── */
+@media (max-width: 480px) {
+  .content { padding: 2.5rem 1rem 4rem; }
+}

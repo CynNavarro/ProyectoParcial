@@ -1,0 +1,218 @@
+/* ── Paleta rosa pastel / gradientes (misma estética global) ── */
+
+/* ── Banner ──────────────────────────────────────────────────── */
+.banner {
+  position: relative;
+  width: 100%;
+  min-height: 38vh;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding-bottom: 3rem;
+}
+
+.bannerOverlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to bottom,
+    rgba(10, 5, 8, 0.5) 0%,
+    rgba(10, 5, 8, 0.88) 100%
+  );
+}
+
+.bannerContent {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.bannerTitle {
+  font-size: clamp(2rem, 6vw, 3.8rem);
+  font-weight: 800;
+  margin: 0;
+  letter-spacing: -0.02em;
+  background: linear-gradient(90deg, #ffd6e0, #ff85a1, #ffc2d1, #ff6b8a, #ffd6e0);
+  background-size: 300% 300%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradientShift 5s ease infinite;
+}
+
+.bannerSub {
+  margin: 0;
+  font-size: 0.8rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: rgba(255, 182, 198, 0.6);
+}
+
+/* ── Lista de servicios ──────────────────────────────────────── */
+.servicesList {
+  display: flex;
+  flex-direction: column;
+}
+
+/* ── Card de servicio ────────────────────────────────────────── */
+.serviceCard {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 4rem clamp(1.25rem, 6vw, 5rem);
+  max-width: 900px;
+  width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+  border-bottom: 1px solid rgba(255, 133, 161, 0.1);
+}
+
+.serviceCard:last-child {
+  border-bottom: none;
+}
+
+/* Fondo alterno sutilmente diferente */
+.serviceCardAlt {
+  background: rgba(255, 133, 161, 0.025);
+}
+
+/* ── Título del servicio ─────────────────────────────────────── */
+.serviceTitle {
+  font-size: clamp(1.4rem, 4.5vw, 2.4rem);
+  font-weight: 800;
+  margin: 0;
+  letter-spacing: -0.01em;
+  background-size: 300% 300%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradientShift 5s ease infinite;
+}
+
+/* Tonos de gradiente por sección */
+.pink1 { background-image: linear-gradient(90deg, #ffd6e0, #ff85a1, #ffc2d1, #ffd6e0); }
+.pink2 { background-image: linear-gradient(90deg, #ffb3c6, #ffd6e0, #ff6b8a, #ffb3c6); }
+.pink3 { background-image: linear-gradient(90deg, #ff85a1, #ffb3c6, #e8607a, #ff85a1); }
+.pink4 { background-image: linear-gradient(90deg, #ffc2d1, #ff85a1, #ffd6e0, #ffc2d1); }
+.pink5 { background-image: linear-gradient(90deg, #ff6b8a, #ffd6e0, #ff85a1, #ff6b8a); }
+
+/* ── Imagen ──────────────────────────────────────────────────── */
+.imageWrapper {
+  width: 100%;
+  border-radius: 14px;
+  overflow: hidden;
+  border: 1px solid rgba(255, 133, 161, 0.15);
+  box-shadow: 0 8px 40px rgba(255, 100, 140, 0.08);
+}
+
+.serviceImg {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.imageWrapper:hover .serviceImg {
+  transform: scale(1.015);
+}
+
+/* ── Descripción ─────────────────────────────────────────────── */
+.descWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.descBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.descBlockTitle {
+  font-size: 0.72rem;
+  font-weight: 700;
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  padding-bottom: 0.35rem;
+  border-bottom: 1px solid;
+}
+
+/* Colores de los subtítulos de bloque */
+.blockAccent1 {
+  color: #ffd6e0;
+  border-color: rgba(255, 214, 224, 0.2);
+}
+.blockAccent2 {
+  color: #ffb3c6;
+  border-color: rgba(255, 179, 198, 0.2);
+}
+.blockAccent3 {
+  color: #ff85a1;
+  border-color: rgba(255, 133, 161, 0.2);
+}
+.blockAccentWarn {
+  color: rgba(255, 107, 138, 0.9);
+  border-color: rgba(255, 107, 138, 0.2);
+}
+
+.descList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+}
+
+.descList li {
+  color: rgba(255, 224, 232, 0.68);
+  font-size: 0.9rem;
+  line-height: 1.65;
+  padding-left: 1rem;
+  position: relative;
+}
+
+.descList li::before {
+  content: "–";
+  position: absolute;
+  left: 0;
+  color: rgba(255, 133, 161, 0.5);
+}
+
+/* ── Animación gradiente ─────────────────────────────────────── */
+@keyframes gradientShift {
+  0%   { background-position: 0% 50%; }
+  50%  { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* ── Responsive ──────────────────────────────────────────────── */
+@media (min-width: 768px) {
+  /* En tablet/desktop las cards con imagen la muestran al lado */
+  .serviceCard.hasImage {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto 1fr;
+    column-gap: 3rem;
+    align-items: start;
+  }
+  .serviceCard.hasImage .serviceTitle {
+    grid-column: 1 / -1;
+  }
+}
+
+@media (max-width: 480px) {
+  .serviceCard {
+    padding: 2.5rem 1.25rem;
+    gap: 1.5rem;
+  }
+}

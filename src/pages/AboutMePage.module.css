@@ -1,0 +1,157 @@
+/* ═══════════════════════════════════════════════════════════
+   About Me Page — ASummerTenshi aesthetic
+   ═══════════════════════════════════════════════════════════ */
+
+/* ── Banner ───────────────────────────────────────────────── */
+.banner {
+  position: relative;
+  width: 100%;
+  min-height: 34vh;
+  background: linear-gradient(155deg, #100408 0%, #1c071a 55%, #0a0305 100%);
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding-bottom: 3.5rem;
+}
+
+.bannerOverlay {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(
+    ellipse 90% 55% at 50% 100%,
+    rgba(255, 107, 138, 0.1) 0%,
+    transparent 70%
+  );
+}
+
+.bannerContent {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.55rem;
+}
+
+.bannerTitle {
+  font-size: clamp(2.4rem, 7vw, 4.5rem);
+  font-weight: 900;
+  margin: 0;
+  letter-spacing: -0.03em;
+  background: linear-gradient(90deg, #ffd6e0, #ff85a1, #ffc2d1, #ff6b8a, #ffd6e0);
+  background-size: 300% 300%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradientShift 5s ease infinite;
+}
+
+.bannerSub {
+  margin: 0;
+  font-size: 0.78rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: rgba(255, 182, 198, 0.5);
+}
+/* ── Imagen de fondo — relativa al .content (siempre centrada) ─ */
+.pageBg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 180%;
+  height: auto;
+  object-fit: contain;
+  object-position: center center;
+  opacity: 0.25;
+  pointer-events: none;
+  user-select: none;
+  z-index: 0;
+  mask-image: linear-gradient(
+    to bottom,
+    transparent 0%,
+    rgba(0,0,0,0.6) 18%,
+    rgba(0,0,0,0.9) 40%,
+    rgba(0,0,0,0.9) 70%,
+    transparent 100%
+  );
+  -webkit-mask-image: linear-gradient(
+    to bottom,
+    transparent 0%,
+    rgba(0,0,0,0.6) 18%,
+    rgba(0,0,0,0.9) 40%,
+    rgba(0,0,0,0.9) 70%,
+    transparent 100%
+  );
+}
+/* ── Layout una columna, centrado ───────────────────────────── */
+.content {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: clamp(4rem, 8vw, 7rem) clamp(1.5rem, 10vw, 10rem);
+  max-width: 900px;
+  margin: 0 auto;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* ── Bloque de texto ──────────────────────────────────────── */
+.textBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+  width: 100%;
+}
+
+/* ── Wrapper de párrafos ─────────────────────────────────── */
+.parasWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.name {
+  font-size: clamp(1.9rem, 3.5vw, 2.8rem);
+  font-weight: 800;
+  margin: 0;
+  letter-spacing: -0.025em;
+  background: linear-gradient(90deg, #ffd6e0, #ff85a1, #ffc2d1, #ff6b8a, #ffd6e0);
+  background-size: 300% 300%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradientShift 6s ease infinite;
+}
+
+.para {
+  font-size: clamp(0.88rem, 1.5vw, 1.03rem);
+  line-height: 1.85;
+  color: rgba(255, 214, 224, 0.75);
+  margin: 0;
+  position: relative;
+  z-index: 1;
+}
+
+/* ── Animación ────────────────────────────────────────────── */
+@keyframes gradientShift {
+  0%   { background-position: 0% 50%; }
+  50%  { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* ── Responsive ───────────────────────────────────────────── */
+@media (max-width: 820px) {
+  .content {
+    padding: 3rem clamp(1rem, 5vw, 2rem);
+  }
+
+  .bgImg { width: 160%; opacity: 0.14; }
+}
+
+@media (max-width: 480px) {
+  .bgImg { width: 200%; opacity: 0.1; }
+}
