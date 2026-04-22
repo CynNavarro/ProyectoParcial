@@ -1,10 +1,10 @@
-import { Mail, Twitter, ExternalLink } from "lucide-react";
+import { Mail, Twitter, ExternalLink, MessageCircle, Phone } from "lucide-react";
 import styles from "./Footer.module.css";
 
 const contacts = [
   {
     icon: Mail,
-    label: "summertenshi.comissions@gmail.com",
+    label: "Comissions Email",
     href: "mailto:summertenshi.comissions@gmail.com",
     display: "summertenshi.comissions@gmail.com",
   },
@@ -19,6 +19,18 @@ const contacts = [
     label: "VGen",
     href: "https://vgen.co/ASummerTenshi",
     display: "vgen.co/ASummerTenshi",
+  },
+  {
+    icon: MessageCircle,
+    label: "WhatsApp",
+    href: "https://wa.me/5215511450030",
+    display: "WhatsApp",
+  },
+  {
+    icon: Phone,
+    label: "Llamada Telefónica",
+    href: "tel:+5215511450030",
+    display: "Llamar ahora", 
   },
 ];
 

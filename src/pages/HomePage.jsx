@@ -1,3 +1,7 @@
+/* * Proyecto: ASummerTenshi Portfolio
+ * Componente: HomePage (Index principal)
+ */
+
 import fondoImg from '../assets/img/FONDO_1.png'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
