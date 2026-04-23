@@ -7,8 +7,9 @@ import styles from "./Navbar.module.css";
 const navLinks = [
   { label: "About Me",         href: "/about",      isRoute: true  },
   { label: "Services",         href: "/services",   isRoute: true  },
-  { label: "Portfolio",        href: "/portfolio",  isRoute: true  },
-  { label: "Terms of Service", href: "/terms",      isRoute: true  },
+  { label: "Portfolio",              href: "/portfolio",  isRoute: true  },
+  { label: "ShowCase Portfolio",     href: "/showcase",   isRoute: true  },
+  { label: "Terms of Service",       href: "/terms",      isRoute: true  },
 ];
 
 const socialLinks = [
