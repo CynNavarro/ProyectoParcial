@@ -16,13 +16,13 @@ import img6 from '../assets/img/Portafolio/6_LOADING_SCREEN.png'
 import img7 from '../assets/img/Portafolio/7_CELES_VTUBER.png'
 
 const pieces = [
-  { id: 1, title: 'Summer Tenshi Outfits', img: img1, span: 'wide' },
-  { id: 2, title: 'Awa Jelly Outfits',     img: img2, span: 'tall' },
-  { id: 3, title: 'Strawberry Art',         img: img3, span: 'normal' },
-  { id: 4, title: 'CRK OC Style',           img: img4, span: 'normal' },
-  { id: 5, title: 'Background',             img: img5, span: 'wide' },
-  { id: 6, title: 'Loading Screen',         img: img6, span: 'tall' },
-  { id: 7, title: 'Celes Vtuber',           img: img7, span: 'normal' },
+  { id: 1, title: 'Summer Tenshi Outfits', img: img1, span: 'wide',   desc: 'Character outfit sheet with multiple costume variations and accessories.' },
+  { id: 2, title: 'Awa Jelly Outfits',     img: img2, span: 'tall',   desc: 'Alternate outfit designs featuring the Awa Jelly theme.' },
+  { id: 3, title: 'Strawberry Art',         img: img3, span: 'normal', desc: 'Strawberry-themed illustration with pastel pink accents.' },
+  { id: 4, title: 'CRK OC Style',           img: img4, span: 'normal', desc: 'Original character designed in the Cookie Run Kingdom art style.' },
+  { id: 5, title: 'Background',             img: img5, span: 'wide',   desc: 'Full background illustration with environmental detail and lighting.' },
+  { id: 6, title: 'Loading Screen',         img: img6, span: 'tall',   desc: 'Animated loading screen concept for a VTuber application.' },
+  { id: 7, title: 'Celes Vtuber',           img: img7, span: 'normal', desc: 'Complete VTuber character model design and reference sheet.' },
 ]
 
 // ── Variantes ─────────────────────────────────────────────────
@@ -59,6 +59,7 @@ function PortfolioCard({ piece, index }) {
             </span>
             <h3 className={styles.overlayTitle}>{piece.title}</h3>
             <span className={styles.overlayLine} />
+            <p className={styles.overlayDesc}>{piece.desc}</p>
           </div>
         </div>
       </div>
