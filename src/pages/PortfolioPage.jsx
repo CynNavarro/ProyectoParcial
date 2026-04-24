@@ -1,5 +1,5 @@
-import { useRef } from 'react'
-import { motion, useInView } from 'framer-motion'
+import { useRef, useState } from 'react'
+import { motion, AnimatePresence, useInView } from 'framer-motion'
 import fondoImg from '../assets/img/FONDO_1.png'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
@@ -35,7 +35,7 @@ const cardVariants = {
 }
 
 // ── Card individual ───────────────────────────────────────────
-function PortfolioCard({ piece, index }) {
+function PortfolioCard({ piece, index, onSelect }) {
   const ref = useRef(null)
   const inView = useInView(ref, { once: true, margin: '-60px' })
 
@@ -47,6 +47,7 @@ function PortfolioCard({ piece, index }) {
       custom={index}
       initial="hidden"
       animate={inView ? 'visible' : 'hidden'}
+      onClick={() => onSelect(piece)}
     >
       <div className={styles.imgWrapper}>
         <img src={piece.img} alt={piece.title} className={styles.img} loading="lazy" />
@@ -75,6 +76,8 @@ function PortfolioCard({ piece, index }) {
 
 // ── Página ────────────────────────────────────────────────────
 export default function PortfolioPage() {
+  const [selected, setSelected] = useState(null)
+
   return (
     <div className="page">
       <Navbar />
@@ -96,13 +99,53 @@ export default function PortfolioPage() {
         {/* ── Grid ──────────────────────────────────────────── */}
         <section className={styles.grid}>
           {pieces.map((piece, i) => (
-            <PortfolioCard key={piece.id} piece={piece} index={i} />
+            <PortfolioCard key={piece.id} piece={piece} index={i} onSelect={setSelected} />
           ))}
         </section>
 
       </main>
 
       <Footer />
+
+      {/* ── Lightbox ──────────────────────────────────────── */}
+      <AnimatePresence>
+        {selected && (
+          <motion.div
+            className={styles.backdrop}
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            transition={{ duration: 0.3 }}
+            onClick={() => setSelected(null)}
+          >
+            <motion.div
+              className={styles.lightbox}
+              initial={{ opacity: 0, scale: 0.85, y: 30 }}
+              animate={{ opacity: 1, scale: 1, y: 0 }}
+              exit={{ opacity: 0, scale: 0.9, y: 20 }}
+              transition={{ type: 'spring', stiffness: 80, damping: 18 }}
+              onClick={(e) => e.stopPropagation()}
+            >
+              <button
+                className={styles.lightboxClose}
+                onClick={() => setSelected(null)}
+                aria-label="Close"
+              >
+                ✕
+              </button>
+              <img
+                src={selected.img}
+                alt={selected.title}
+                className={styles.lightboxImg}
+              />
+              <div className={styles.lightboxInfo}>
+                <h2 className={styles.lightboxTitle}>{selected.title}</h2>
+                <p className={styles.lightboxDesc}>{selected.desc}</p>
+              </div>
+            </motion.div>
+          </motion.div>
+        )}
+      </AnimatePresence>
     </div>
   )
 }
