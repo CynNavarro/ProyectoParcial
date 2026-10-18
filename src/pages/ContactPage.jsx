@@ -5,7 +5,7 @@
 import { useState } from 'react'
 import { motion } from 'framer-motion'
 import {
-  Mail, Twitter, ExternalLink, MessageCircle, Phone, Send, Clock,
+  Mail, Twitter, ExternalLink, Send, Clock,
 } from 'lucide-react'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
@@ -36,20 +36,6 @@ const channels = [
     display: 'vgen.co/ASummerTenshi',
     href: 'https://vgen.co/ASummerTenshi',
     note: 'Commission platform profile',
-  },
-  {
-    icon: MessageCircle,
-    label: 'WhatsApp',
-    display: 'Chat now',
-    href: 'https://wa.me/5215511450030',
-    note: 'Direct chat in Spanish or English',
-  },
-  {
-    icon: Phone,
-    label: 'Phone call',
-    display: 'Call now',
-    href: 'tel:+5215511450030',
-    note: 'Only if we already arranged it',
   },
 ]
 
@@ -198,7 +184,7 @@ export default function ContactPage() {
                   />
                 </div>
 
-                <button type="submit" className={styles.submitBtn}>
+                <button type="submit" className="btn btn--accent btn--block">
                   <Send size={17} strokeWidth={2} aria-hidden="true" />
                   Send via email
                 </button>
@@ -230,13 +216,11 @@ export default function ContactPage() {
                     rel="noopener noreferrer"
                   >
                     <span className={styles.channelIcon} aria-hidden="true">
-                      <c.icon size={19} strokeWidth={1.75} />
+                      <c.icon size={21} strokeWidth={1.75} />
                     </span>
-                    <span className={styles.channelInfo}>
-                      <span className={styles.channelLabel}>{c.label}</span>
-                      <span className={styles.channelDisplay}>{c.display}</span>
-                      <span className={styles.channelNote}>{c.note}</span>
-                    </span>
+                    <span className={styles.channelLabel}>{c.label}</span>
+                    <span className={styles.channelDisplay}>{c.display}</span>
+                    <span className={styles.channelNote}>{c.note}</span>
                   </a>
                 </motion.li>
               ))}

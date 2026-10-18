@@ -3,6 +3,7 @@
  * Redesign-preserve: conserva #080406 / #fff0f3 / rosa pastel del sitio vigente.
  */
 @import "./tokens.css";
+@import "./styles/buttons.css";
 @import "@fontsource/outfit/400.css";
 @import "@fontsource/outfit/500.css";
 @import "@fontsource/outfit/600.css";

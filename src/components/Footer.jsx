@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
-import { Mail, Twitter, ExternalLink, MessageCircle, Phone, ArrowRight } from "lucide-react";
-import logoImg from "../assets/logo.svg";
+import { Mail, Twitter, ExternalLink, ArrowRight } from "lucide-react";
 import styles from "./Footer.module.css";
 
 const contacts = [
@@ -22,18 +21,6 @@ const contacts = [
     href: "https://vgen.co/ASummerTenshi",
     display: "vgen.co/ASummerTenshi",
   },
-  {
-    icon: MessageCircle,
-    label: "WhatsApp",
-    href: "https://wa.me/5215511450030",
-    display: "WhatsApp",
-  },
-  {
-    icon: Phone,
-    label: "Llamada Telefónica",
-    href: "tel:+5215511450030",
-    display: "Llamar ahora",
-  },
 ];
 
 const siteLinks = [
@@ -49,7 +36,6 @@ export default function Footer() {
     <footer className={styles.footer}>
       <div className={styles.top}>
         <Link to="/" className={styles.brand} aria-label="ASummerTenshi, go to homepage">
-          <img src={logoImg} alt="" className={styles.brandMark} width="40" height="40" />
           <span className={styles.brandName}>ASummerTenshi</span>
         </Link>
 
@@ -65,9 +51,9 @@ export default function Footer() {
           </ul>
         </nav>
 
-        <Link to="/contact" className={styles.cta}>
+        <Link to="/contact" className="btn btn--ghost btn--sm">
           Start a commission
-          <ArrowRight size={16} strokeWidth={2} aria-hidden="true" />
+          <ArrowRight size={15} strokeWidth={2} aria-hidden="true" />
         </Link>
       </div>
 

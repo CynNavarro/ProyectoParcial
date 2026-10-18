@@ -5,7 +5,7 @@
 import { Link } from 'react-router-dom'
 import { motion, useInView, useReducedMotion } from 'framer-motion'
 import { useRef } from 'react'
-import { ArrowRight, Sparkles, PenTool, Box, Heart } from 'lucide-react'
+import { ArrowRight, PenTool, Box, Heart } from 'lucide-react'
 import fondoImg from '../assets/img/FONDO_1.webp'
 import imgRigging from '../assets/img/SERVICES-seccion1-LIVE2DRIGGING+ART.webp'
 import imgEmotes from '../assets/img/SERVICES-seccion4-EMOTES.webp'
@@ -89,6 +89,8 @@ export default function HomePage() {
           aria-label="ASummerTenshi, VTuber Artist and Live 2D Rigger"
         >
           <div className={styles.heroOverlay} />
+          <div className={styles.heroGlowPink} aria-hidden="true" />
+          <div className={styles.heroGlowBlue} aria-hidden="true" />
           <div className={styles.heroContent}>
             <motion.h1
               className={styles.heroTitle}
@@ -106,20 +108,6 @@ export default function HomePage() {
             >
               VTuber Artist &amp; Live 2D Rigger
             </motion.p>
-            <motion.div
-              className={styles.heroCtas}
-              initial={{ opacity: 0, y: 16 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6, delay: 0.6 }}
-            >
-              <Link to="/services" className={styles.btnPrimary}>
-                View Services
-                <ArrowRight size={18} strokeWidth={2} aria-hidden="true" />
-              </Link>
-              <Link to="/contact" className={styles.btnGhost}>
-                Get in Touch
-              </Link>
-            </motion.div>
           </div>
           <div className={styles.heroFade} aria-hidden="true" />
         </section>
@@ -188,7 +176,7 @@ export default function HomePage() {
             ))}
           </div>
           <Reveal className={styles.centerCta}>
-            <Link to="/portfolio" className={styles.btnPrimary}>
+            <Link to="/portfolio" className="btn btn--primary">
               View full portfolio
               <ArrowRight size={18} strokeWidth={2} aria-hidden="true" />
             </Link>
@@ -200,7 +188,6 @@ export default function HomePage() {
           <Reveal className={styles.showcaseInner}>
             <div className={styles.showcaseText}>
               <p className={styles.introKicker}>
-                <Sparkles size={14} strokeWidth={2} aria-hidden="true" />
                 ShowCase Portfolio
               </p>
               <h2 className={styles.sectionTitle}>See the models move</h2>
@@ -208,7 +195,7 @@ export default function HomePage() {
                 Rigging comes alive on screen. Watch the showcases to see how
                 the expressions, head angles and physics feel in motion.
               </p>
-              <Link to="/showcase" className={styles.btnGhost}>
+              <Link to="/showcase" className="btn btn--ghost">
                 Watch showcases
                 <ArrowRight size={18} strokeWidth={2} aria-hidden="true" />
               </Link>
@@ -228,11 +215,11 @@ export default function HomePage() {
         {/* ── CTA contacto ── */}
         <section className={styles.ctaBand}>
           <Reveal className={styles.ctaInner}>
-            <h2 className={styles.ctaTitle}>Ready to bring your character to life?</h2>
             <p className={styles.ctaText}>
-              Tell me about your idea and I will guide you through art, rigging and delivery.
+              Ready to bring your character to life? Tell me about your idea and
+              I will guide you through art, rigging and delivery.
             </p>
-            <Link to="/contact" className={styles.btnLight}>
+            <Link to="/contact" className="btn btn--accent">
               Start a commission
               <ArrowRight size={18} strokeWidth={2} aria-hidden="true" />
             </Link>
