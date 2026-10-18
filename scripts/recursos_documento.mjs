@@ -10,7 +10,7 @@ const fondoB64 = (await readFile('src/assets/img/FONDO_1.webp')).toString('base6
 const browser = await chromium.launch();
 const page = await browser.newPage();
 
-const fontsLink = `<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&amp;family=Outfit:wght@400;600&amp;family=Caveat:wght@600&amp;display=swap">`;
+const fontsLink = `<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&amp;family=Outfit:wght@400;600&amp;display=swap">`;
 
 /* ── Paleta de colores ── */
 const colors = [
@@ -41,7 +41,7 @@ await page.screenshot({ path: `${outDir}/paleta-colores.png`, fullPage: true });
 console.log('paleta-colores.png');
 
 /* ── Muestra tipográfica ── */
-await page.setViewportSize({ width: 1160, height: 780 });
+await page.setViewportSize({ width: 1160, height: 560 });
 await page.setContent(`<html><head>${fontsLink}<style>
   body{margin:0;padding:28px;background:#fffafc;font-family:'Segoe UI',Arial,sans-serif;color:#3a0f1c}
   h2{margin:0 0 6px;font-size:22px;font-family:'Bricolage Grotesque',sans-serif}
@@ -59,9 +59,6 @@ await page.setContent(`<html><head>${fontsLink}<style>
 <div class="card"><div class="lbl">Outfit · texto del cuerpo</div>
   <div class="sample" style="font-family:Outfit,sans-serif;font-weight:400">AaBbCcDdEeFfGgHhIiJjKkLlMm<br>NnÑnOoPpQqRrSsTtUuVvWwXxYyZz 0123456789</div>
   <div class="use">Se emplea en párrafos, descripciones, formularios y navegación (pesos 400 a 600).</div></div>
-<div class="card"><div class="lbl">Caveat · acento manuscrito</div>
-  <div class="sample" style="font-family:'Caveat',cursive;font-weight:600;font-size:40px">AaBbCcDdEeFfGgHhIiJjKkLlMm NnOoPpQqRrSsTtUuVvWwXxYyZz 0123456789</div>
-  <div class="use">Se emplea como único acento manuscrito en el hero, como firma visual de la marca.</div></div>
 </body></html>`);
 await page.waitForTimeout(900);
 await page.screenshot({ path: `${outDir}/tipografias.png`, fullPage: true });

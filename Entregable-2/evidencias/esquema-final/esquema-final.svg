@@ -107,12 +107,12 @@
   <path class="line" d="M795 212 V630 M795 630 H500 M500 630 V652"/>
   <g>
     <rect x="270" y="664" width="220" height="34" rx="8" class="lvl2"/><text x="380" y="685" text-anchor="middle" class="t2">Formulario de solicitud</text>
-    <rect x="510" y="664" width="220" height="34" rx="8" class="lvl2"/><text x="620" y="685" text-anchor="middle" class="t2">Canales directos (5)</text>
+    <rect x="510" y="664" width="220" height="34" rx="8" class="lvl2"/><text x="620" y="685" text-anchor="middle" class="t2">Canales directos (3)</text>
   </g>
 
   <!-- Nota pie -->
   <rect x="120" y="736" width="760" height="38" rx="10" class="note"/>
-  <text x="500" y="760" text-anchor="middle" class="tnote">Contacto global: pie de página con email, X, VGen, WhatsApp y teléfono en todas las rutas</text>
+  <text x="500" y="760" text-anchor="middle" class="tnote">Contacto global: pie de página con email, X y VGen en todas las rutas</text>
 
   <!-- Cambios respecto a actividad 1 -->
   <rect x="120" y="792" width="760" height="112" rx="12" class="chg"/>

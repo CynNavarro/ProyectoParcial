@@ -16,7 +16,6 @@ Diseña una portada a página completa con esta composición (los datos los cono
 - Sobre el logo, rótulo en mayúsculas espaciadas: **ENTREGABLE 2 · SITIO WEB** (color `#FF85A1`).
 - Título: **ASummerTenshi** en Bricolage Grotesque 800, ≈76 pt, con degradado rosa pastel `#FFD6E0 → #FF85A1 → #FFB3C6 → #E8607A`.
 - Subtítulo: **VTuber Artist & Live 2D Rigger** (≈25 pt, `#FFF0F3` al 82 %).
-- Frase manuscrita en Caveat 600, ≈40 pt, `#FFB3C6`: «diseño, arte y rigging en un solo lugar».
 - Línea divisoria degradada de 190 px.
 - Bloque de datos (los que tú conoces): nombre de la estudiante, materia, docente y fecha de entrega, en Outfit ≈19 pt con etiquetas en `#FFD6E0`.
 - Al pie, centrado: `asummertenshi.studio` en `#FFC2D1`, espaciado.
@@ -124,11 +123,10 @@ Servicios creativos para VTubers y creadores digitales: diseño e ilustración d
 | Logotipo | Barra de navegación, pie de página y favicon |
 | Oferta de servicios (cinco categorías con entregables y complementos) | Página Services y tarjetas destacadas en inicio |
 | Correo de comisiones | Formulario de contacto, página Contact y pie de página |
-| X / Twitter, VGen y WhatsApp | Página Contact, menú móvil y pie de página en todas las rutas |
-| Teléfono | Página Contact y pie de página |
+| X / Twitter y VGen | Página Contact, menú móvil y pie de página en todas las rutas |
 | Condiciones de pago, revisiones, plazos, derechos y reembolsos | Página Terms of Service, enlazada desde el formulario de contacto |
 
-Los datos están ordenados por prioridad: primero la identidad, después la oferta, al final los canales y las condiciones, de modo que un visitante nuevo comprende la marca antes de decidir cómo contactar.
+Los datos están ordenados por prioridad: primero la identidad, después la oferta, al final los canales y las condiciones, de modo que un visitante nuevo comprende la marca antes de decidir cómo contactar. Por privacidad, los canales públicos se limitan al correo, a X y a VGen.
 
 ---
 
@@ -220,16 +218,15 @@ A continuación se muestran seis de las imágenes empleadas, con su función den
 
 ### b) Tipografías
 
-Se eligieron tres familias con personalidad complementaria, autoalojadas en formato WOFF2 para un cargado rápido:
+Se eligieron dos familias con personalidad complementaria, autoalojadas en formato WOFF2 para un cargado rápido:
 
 **Imagen 12** — ancho completo:
 - Ruta: `evidencias/recursos-graficos/tipografias.png`
-- Qué es: muestra del alfabeto (mayúsculas, minúsculas, números) de las tres fuentes reales del sitio.
-- Pie sugerido: «Figura 12. Bricolage Grotesque (títulos), Outfit (texto) y Caveat (acento manuscrito), con muestra del alfabeto.»
+- Qué es: muestra del alfabeto (mayúsculas, minúsculas, números) de las dos fuentes reales del sitio.
+- Pie sugerido: «Figura 12. Bricolage Grotesque (títulos) y Outfit (texto), con muestra del alfabeto.»
 
 - **Bricolage Grotesque** (pesos 500 a 800): títulos, logotipo y encabezados. Su trazo expresivo evoca titulares de cómic sin sacrificar nitidez.
-- **Outfit** (pesos 400 a 600): cuerpo del texto, formularios y navegación. Geométrica y muy legible en pantalla.
-- **Caveat** (peso 600): un único acento manuscrito en el hero, como firma de la artista dentro de su propia página.
+- **Outfit** (pesos 400 a 600): cuerpo del texto, formularios y navegación. Geométrica y muy legible en pantalla. El título principal del hero usa además la pila de fuentes del sistema (system-ui, Avenir, Helvetica), heredada de la identidad original del sitio.
 
 ### c) Texturas y patrones
 
@@ -273,15 +270,15 @@ La navegación global es persistente y queda fija al hacer scroll. En escritorio
 | Elemento | Cómo quedó al terminar el proyecto |
 |---|---|
 | Barra de navegación | Fija, con logotipo gráfico, enlaces persistentes en escritorio y menú lateral en móvil con foco controlado y cierre por Escape. |
-| Hero de inicio | Ilustración de fondo a pantalla completa, lema manuscrito, título de marca, subtítulo profesional y dos botones: “View Services” y “Get in Touch”. |
+| Hero de inicio | Ilustración de fondo a pantalla completa con glows pastel (rosa bebé y celeste), título de marca en la fuente original del sitio y subtítulo profesional, todo centrado. |
 | Propuesta de valor | Sección de bienvenida que explica el diferencial (diseño, arte y rigging en una sola marca) con enlace al perfil. |
 | Servicios destacados | Tres tarjetas con imagen, icono, descripción y enlace a la página completa de servicios. |
 | Vista previa del portafolio | Cuatro obras en mosaico asimétrico con nombre visible al pasar el cursor y botón al portafolio completo. |
 | Llamado al showcase | Tarjeta con imagen de la animación de carga y botón hacia los videos de modelos en movimiento. |
-| Banda de contacto | Panel en degradado rosa con la invitación a iniciar la comisión y botón directo a la página Contact. |
+| Banda de contacto | Panel oscuro con brillo rosa superior y doble marco, con la invitación a iniciar la comisión y botón directo a la página Contact. |
 | Galería del portafolio | Siete obras con descripción en el cursor y visor ampliado (lightbox) con título y texto alternativo. |
 | Formulario de contacto | Campos de nombre, correo, tipo de servicio y detalles; al enviar, abre el cliente de correo con el mensaje prellenado dirigido al correo de comisiones. |
-| Canales directos | Cinco tarjetas (correo, X, VGen, WhatsApp y teléfono) con nota sobre el uso recomendado de cada uno. |
+| Canales directos | Tres tarjetas centradas (correo, X y VGen) con nota sobre el uso recomendado de cada una. |
 | Pie de página | Marca con logotipo, enlaces de secciones, botón “Start a commission” y la fila de canales de comunicación en todas las rutas. |
 | Detalles técnicos | Salto al contenido para lectores de pantalla, foco visible en rosa, respeto de “reducir movimiento”, imágenes con texto alternativo y rutas con encabezados ordenados. |
 
@@ -294,7 +291,7 @@ La navegación global es persistente y queda fija al hacer scroll. En escritorio
 **Imagen 15** — ancho completo:
 - Ruta: `evidencias/capturas-sitio/01-inicio-desktop.png`
 - Qué es: inicio completo en escritorio (misma captura de la Figura 1; usar aquí como figura principal de esta sección o variar el recorte).
-- Pie sugerido: «Figura 15. Inicio (escritorio): el resumen completo de la marca en una sola vista con cuatro llamados a la acción.»
+- Pie sugerido: «Figura 15. Inicio (escritorio): el resumen completo de la marca en una sola vista, con llamados a la acción hacia el portafolio, el showcase y la comisión.»
 
 **Imagen 16** — ancho completo:
 - Ruta: `evidencias/capturas-sitio/03-servicios-desktop.png`
@@ -360,7 +357,7 @@ Formato APA, sangría francesa, texto alineado a la izquierda:
 
 - ASummerTenshi. (s. f.). *ASummerTenshi — Portfolio*. Consultado el 18 de octubre de 2026, en https://asummertenshi.studio/
 - Cloudflare. (s. f.). *Cloudflare Pages documentation*. Consultado el 18 de octubre de 2026, en https://developers.cloudflare.com/pages/
-- Google Fonts. (s. f.). *Bricolage Grotesque, Outfit y Caveat*. Consultado el 18 de octubre de 2026, en https://fonts.google.com/
+- Google Fonts. (s. f.). *Bricolage Grotesque y Outfit*. Consultado el 18 de octubre de 2026, en https://fonts.google.com/
 - *Guía de organización de información en un proyecto web*. (s. f.). [Material de clase, documento de Word].
 - Lucide. (s. f.). *Lucide icons — documentación*. Consultado el 18 de octubre de 2026, en https://lucide.dev/
 - Motion. (s. f.). *Framer Motion — documentación*. Consultado el 18 de octubre de 2026, en https://motion.dev/
@@ -409,7 +406,7 @@ La redacción de este documento se revisó conforme a la *Nueva gramática de la
 | `evidencias/esquema-final/esquema-final.png` | Mapa del sitio (raster) | 10 (Fig. 21) |
 | `evidencias/esquema-final/esquema-final.svg` | Mapa del sitio (vector) | respaldo |
 | `evidencias/recursos-graficos/paleta-colores.png` | Paleta con HEX y RGB | 6 (Fig. 11) |
-| `evidencias/recursos-graficos/tipografias.png` | Alfabeto de las 3 fuentes | 6 (Fig. 12) |
+| `evidencias/recursos-graficos/tipografias.png` | Alfabeto de las dos fuentes | 6 (Fig. 12) |
 | `evidencias/recursos-graficos/textura-fondo.png` | Textura de rombos | portada (referencia) y 6 (Fig. 13) |
 | `documento/img/1_SUMMER_TENSHI_OUTFITS.webp` | Ilustración «Summer Tenshi Outfits» | 5 (Fig. 5) |
 | `documento/img/3_STRAWBERRY_ART.webp` | Ilustración «Strawberry Art» | 5 (Fig. 6) |

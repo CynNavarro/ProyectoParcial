@@ -46,7 +46,7 @@ Soportes visuales del apartado de diseño del documento.
 | Archivo | Contenido |
 |---|---|
 | `paleta-colores.png` | Paleta con nombre, HEX y RGB de cada color |
-| `tipografias.png` | Muestra del alfabeto de las tres fuentes y su uso |
+| `tipografias.png` | Muestra del alfabeto de las dos fuentes y su uso |
 | `textura-fondo.png` | Patrón de fondo del hero (rombos rosas pastel) |
 
 ## Registro de verificación

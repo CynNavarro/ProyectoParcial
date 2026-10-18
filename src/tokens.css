@@ -32,7 +32,6 @@
   /* ── Fuentes ─────────────────────────────────────────────── */
   --font-display: "Bricolage Grotesque", "Outfit", system-ui, sans-serif;
   --font-body: "Outfit", system-ui, Avenir, Helvetica, Arial, sans-serif;
-  --font-accent: "Caveat", cursive;
 
   /* ── Escala tipográfica ──────────────────────────────────── */
   --text-hero: clamp(2.75rem, 7vw, 5.5rem);
