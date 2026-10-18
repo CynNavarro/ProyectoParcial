@@ -2,7 +2,7 @@ import { useRef } from 'react'
 import { motion, useInView } from 'framer-motion'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
-import aboutImg from '../assets/img/AboutMe/ABOUT_ME.png'
+import aboutImg from '../assets/img/AboutMe/ABOUT_ME.webp'
 import styles from './AboutMePage.module.css'
 import '../App.css'
 
@@ -30,7 +30,7 @@ export default function AboutMePage() {
     <div className="page">
       <Navbar />
 
-      <main className="page-main">
+      <main className="page-main" id="main-content">
 
         {/* ── Banner ─────────────────────────────────────────── */}
         <section className={styles.banner}>

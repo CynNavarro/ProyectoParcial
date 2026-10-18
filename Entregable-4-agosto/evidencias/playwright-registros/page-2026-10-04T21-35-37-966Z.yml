@@ -1,0 +1,106 @@
+- generic [ref=f44e3]:
+  - banner [ref=f44e4]:
+    - navigation "Navegación principal" [ref=f44e5]:
+      - link "Ir al inicio" [ref=f44e6] [cursor=pointer]:
+        - /url: /
+        - text: ASummerTenshi
+      - button "Abrir menú" [ref=f44e7] [cursor=pointer]
+  - main [ref=f44e10]:
+    - generic [ref=f44e13]:
+      - heading "Portfolio" [level=1] [ref=f44e14]
+      - paragraph [ref=f44e15]: ASummerTenshi — Selected Works
+    - generic [ref=f44e16]:
+      - article [ref=f44e17] [cursor=pointer]:
+        - generic [ref=f44e18]:
+          - img "Summer Tenshi Outfits" [ref=f44e19]
+          - generic [ref=f44e21]:
+            - generic [ref=f44e22]: "01"
+            - heading "Summer Tenshi Outfits" [level=3] [ref=f44e23]
+            - paragraph [ref=f44e24]: Character outfit sheet with multiple costume variations and accessories.
+        - generic [ref=f44e25]:
+          - generic [ref=f44e26]: "01."
+          - heading "Summer Tenshi Outfits" [level=3] [ref=f44e27]
+      - article [ref=f44e28] [cursor=pointer]:
+        - generic [ref=f44e29]:
+          - img "Awa Jelly Outfits" [ref=f44e30]
+          - generic [ref=f44e32]:
+            - generic [ref=f44e33]: "02"
+            - heading "Awa Jelly Outfits" [level=3] [ref=f44e34]
+            - paragraph [ref=f44e35]: Alternate outfit designs featuring the Awa Jelly theme.
+        - generic [ref=f44e36]:
+          - generic [ref=f44e37]: "02."
+          - heading "Awa Jelly Outfits" [level=3] [ref=f44e38]
+      - article [ref=f44e39] [cursor=pointer]:
+        - generic [ref=f44e40]:
+          - img "Strawberry Art" [ref=f44e41]
+          - generic [ref=f44e43]:
+            - generic [ref=f44e44]: "03"
+            - heading "Strawberry Art" [level=3] [ref=f44e45]
+            - paragraph [ref=f44e46]: Strawberry-themed illustration with pastel pink accents.
+        - generic [ref=f44e47]:
+          - generic [ref=f44e48]: "03."
+          - heading "Strawberry Art" [level=3] [ref=f44e49]
+      - article [ref=f44e50] [cursor=pointer]:
+        - generic [ref=f44e51]:
+          - img "CRK OC Style" [ref=f44e52]
+          - generic [ref=f44e54]:
+            - generic [ref=f44e55]: "04"
+            - heading "CRK OC Style" [level=3] [ref=f44e56]
+            - paragraph [ref=f44e57]: Original character designed in the Cookie Run Kingdom art style.
+        - generic [ref=f44e58]:
+          - generic [ref=f44e59]: "04."
+          - heading "CRK OC Style" [level=3] [ref=f44e60]
+      - article [ref=f44e61] [cursor=pointer]:
+        - generic [ref=f44e62]:
+          - img "Background" [ref=f44e63]
+          - generic [ref=f44e65]:
+            - generic [ref=f44e66]: "05"
+            - heading "Background" [level=3] [ref=f44e67]
+            - paragraph [ref=f44e68]: Full background illustration with environmental detail and lighting.
+        - generic [ref=f44e69]:
+          - generic [ref=f44e70]: "05."
+          - heading "Background" [level=3] [ref=f44e71]
+      - article [ref=f44e72] [cursor=pointer]:
+        - generic [ref=f44e73]:
+          - img "Loading Screen" [ref=f44e74]
+          - generic [ref=f44e76]:
+            - generic [ref=f44e77]: "06"
+            - heading "Loading Screen" [level=3] [ref=f44e78]
+            - paragraph [ref=f44e79]: Animated loading screen concept for a VTuber application.
+        - generic [ref=f44e80]:
+          - generic [ref=f44e81]: "06."
+          - heading "Loading Screen" [level=3] [ref=f44e82]
+      - article [ref=f44e83] [cursor=pointer]:
+        - generic [ref=f44e84]:
+          - img "Celes Vtuber" [ref=f44e85]
+          - generic [ref=f44e87]:
+            - generic [ref=f44e88]: "07"
+            - heading "Celes Vtuber" [level=3] [ref=f44e89]
+            - paragraph [ref=f44e90]: Complete VTuber character model design and reference sheet.
+        - generic [ref=f44e91]:
+          - generic [ref=f44e92]: "07."
+          - heading "Celes Vtuber" [level=3] [ref=f44e93]
+  - contentinfo [ref=f44e94]:
+    - generic [ref=f44e95]:
+      - paragraph [ref=f44e96]: Communication
+      - list [ref=f44e97]:
+        - listitem [ref=f44e98]:
+          - link "Comissions Email" [ref=f44e99] [cursor=pointer]:
+            - /url: mailto:summertenshi.comissions@gmail.com
+            - generic [ref=f44e103]: summertenshi.comissions@gmail.com
+        - listitem [ref=f44e104]:
+          - link "X / Twitter DMs" [ref=f44e105] [cursor=pointer]:
+            - /url: https://x.com/ASummerTenshi
+            - generic [ref=f44e108]: "@ASummerTenshi"
+        - listitem [ref=f44e109]:
+          - link "VGen" [ref=f44e110] [cursor=pointer]:
+            - /url: https://vgen.co/ASummerTenshi
+            - generic [ref=f44e115]: vgen.co/ASummerTenshi
+        - listitem [ref=f44e116]:
+          - link "WhatsApp" [ref=f44e117] [cursor=pointer]:
+            - /url: https://wa.me/5215511450030
+        - listitem [ref=f44e121]:
+          - link "Llamada Telefónica" [ref=f44e122] [cursor=pointer]:
+            - /url: tel:+5215511450030
+            - generic [ref=f44e125]: Llamar ahora
+      - paragraph [ref=f44e126]: © 2026 ASummerTenshi. All rights reserved.

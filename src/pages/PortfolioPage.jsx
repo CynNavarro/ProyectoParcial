@@ -1,19 +1,19 @@
 import { useRef, useState } from 'react'
 import { motion, AnimatePresence, useInView } from 'framer-motion'
-import fondoImg from '../assets/img/FONDO_1.png'
+import fondoImg from '../assets/img/FONDO_1.webp'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import styles from './PortfolioPage.module.css'
 import '../App.css'
 
 // ── Imágenes ─────────────────────────────────────────────────
-import img1 from '../assets/img/Portafolio/1_SUMMER_TENSHI_OUTFITS.png'
-import img2 from '../assets/img/Portafolio/2_AWA_JELLY_OUTFITSpng.png'
-import img3 from '../assets/img/Portafolio/3_STRAWBERRY_ART.png'
-import img4 from '../assets/img/Portafolio/4_CRK-OC-STYLE.png'
-import img5 from '../assets/img/Portafolio/5_BACKGROUND.png'
-import img6 from '../assets/img/Portafolio/6_LOADING_SCREEN.png'
-import img7 from '../assets/img/Portafolio/7_CELES_VTUBER.png'
+import img1 from '../assets/img/Portafolio/1_SUMMER_TENSHI_OUTFITS.webp'
+import img2 from '../assets/img/Portafolio/2_AWA_JELLY_OUTFITSpng.webp'
+import img3 from '../assets/img/Portafolio/3_STRAWBERRY_ART.webp'
+import img4 from '../assets/img/Portafolio/4_CRK-OC-STYLE.webp'
+import img5 from '../assets/img/Portafolio/5_BACKGROUND.webp'
+import img6 from '../assets/img/Portafolio/6_LOADING_SCREEN.webp'
+import img7 from '../assets/img/Portafolio/7_CELES_VTUBER.webp'
 
 const pieces = [
   { id: 1, title: 'Summer Tenshi Outfits', img: img1, span: 'wide',   desc: 'Character outfit sheet with multiple costume variations and accessories.' },
@@ -82,7 +82,7 @@ export default function PortfolioPage() {
     <div className="page">
       <Navbar />
 
-      <main className="page-main">
+      <main className="page-main" id="main-content">
 
         {/* ── Banner ────────────────────────────────────────── */}
         <section

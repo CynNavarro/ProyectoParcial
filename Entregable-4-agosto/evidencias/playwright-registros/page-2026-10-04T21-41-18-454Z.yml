@@ -1,0 +1,38 @@
+- generic [ref=f48e2]:
+  - generic [ref=f48e3]:
+    - strong [ref=f48e4]: WIREFRAME · BAJA FIDELIDAD · Sobre mí · escritorio
+    - generic [ref=f48e5]: ASUMMERTENSHI · /about
+  - generic [ref=f48e6]:
+    - banner [ref=f48e7]:
+      - generic [ref=f48e8]: ASummerTenshi
+      - navigation "Navegación principal" [ref=f48e9]:
+        - generic [ref=f48e10]: ABOUT ME
+        - generic [ref=f48e11]: SERVICES
+        - generic [ref=f48e12]: PORTFOLIO
+        - generic [ref=f48e13]: SHOWCASE
+        - generic [ref=f48e14]: TERMS
+      - generic [ref=f48e15]: MENU
+    - main [ref=f48e17]:
+      - generic [ref=f48e18]: PROFILE · PRACTICE · DIRECTION
+      - generic [ref=f48e19]:
+        - generic [ref=f48e20]:
+          - heading "About Me" [level=1] [ref=f48e21]
+          - paragraph [ref=f48e22]: Summer Tenshi · VTuber Artist & Live 2D Rigger
+          - paragraph [ref=f48e23]: Estudiante de animación con enfoque en creación de VTubers, diseño de personajes, moda y desarrollo de identidad visual.
+          - paragraph [ref=f48e24]: La práctica integra ilustración de estilo anime y rigging 2D para que el diseño mantenga coherencia desde la imagen hasta el movimiento.
+          - heading "Competencias principales" [level=2] [ref=f48e26]
+          - generic [ref=f48e27]:
+            - generic [ref=f48e28]:
+              - heading "Character art" [level=3] [ref=f48e29]
+              - paragraph [ref=f48e30]: Concepto, vestuario e ilustración.
+            - generic [ref=f48e31]:
+              - heading "Live2D rigging" [level=3] [ref=f48e32]
+              - paragraph [ref=f48e33]: Parámetros, movimiento y expresiones.
+            - generic [ref=f48e34]:
+              - heading "Commission workflow" [level=3] [ref=f48e35]
+              - paragraph [ref=f48e36]: Alcance, revisiones y entrega.
+        - generic [ref=f48e37]: "[IMAGEN ORIGINAL DE PERSONAJE / ARTE VTUBER]"
+    - contentinfo [ref=f48e38]:
+      - generic [ref=f48e39]: CONTACT · EMAIL · VGEN · X
+      - generic [ref=f48e40]: ASUMMERTENSHI · © 2026
+  - generic [ref=f48e41]: Estructura y jerarquía de contenido; no representa una interfaz final ni funciones ya desplegadas.

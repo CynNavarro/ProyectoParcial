@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { X } from "lucide-react";
-import pixelImg from "../assets/img/pixel_summer-to-termsOfService.png";
+import pixelImg from "../assets/img/pixel_summer-to-termsOfService.webp";
 import styles from "./TermsOfService.module.css";
 
 const backdropVariants = {

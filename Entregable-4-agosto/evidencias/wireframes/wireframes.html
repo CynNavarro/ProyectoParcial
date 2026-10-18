@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Wireframes de ASummerTenshi</title>
+  <link rel="icon" href="data:,">
+  <style>
+    :root{color-scheme:light;--ink:#211a1e;--muted:#756970;--line:#c9c0c5;--paper:#fff;--canvas:#eee9ec;--wash:#f8f5f6;--rose:#b66b87;--rosewash:#f4e4eb;--dark:#171116}
+    *{box-sizing:border-box}
+    html,body{margin:0;min-height:100%;font-family:Arial,Helvetica,sans-serif;color:var(--ink);background:var(--canvas)}
+    body.desktop{width:1440px;min-height:960px;padding:22px 32px}
+    body.mobile{width:430px;min-height:920px;padding:14px 20px}
+    .meta{height:34px;display:flex;align-items:center;justify-content:space-between;font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:#604452}
+    .meta strong{font-size:13px;color:#2d2027}
+    .device{margin:0 auto;background:var(--paper);border:1px solid #aaa0a6;box-shadow:0 12px 32px #211a1e18;overflow:hidden;display:flex;flex-direction:column}
+    .device.desktop{width:1280px;height:850px}
+    .device.mobile{width:390px;height:844px;border-radius:22px}
+    .site-header{height:68px;flex:0 0 68px;border-bottom:1px solid var(--line);display:flex;align-items:center;justify-content:space-between;padding:0 34px;background:#fff}
+    .brand{font-size:19px;font-weight:700;letter-spacing:.015em}
+    .nav-label{display:flex;gap:28px;align-items:center;color:#554950;font-size:12px}
+    .burger{display:flex;align-items:center;gap:10px;color:#554950;font-size:11px;letter-spacing:.08em;text-transform:uppercase}
+    .burger i,.burger i:before,.burger i:after{display:block;width:20px;height:2px;background:var(--ink);content:"";position:relative}
+    .burger i:before{position:absolute;top:-6px}.burger i:after{position:absolute;top:6px}
+    .site-main{padding:34px 42px;flex:1;min-height:0;overflow:hidden}
+    .site-footer{height:55px;flex:0 0 55px;border-top:1px solid var(--line);padding:17px 34px;display:flex;justify-content:space-between;font-size:10px;color:#665a61;letter-spacing:.04em}
+    h1,h2,h3,p{margin-top:0}
+    h1{font-size:38px;line-height:1.04;margin-bottom:12px;letter-spacing:-.035em}
+    h2{font-size:20px;line-height:1.15;margin-bottom:14px}
+    h3{font-size:13px;margin:0 0 8px}
+    p{font-size:13px;line-height:1.55;color:#594e54;margin-bottom:12px}
+    .eyebrow{font-size:10px;color:#765064;text-transform:uppercase;letter-spacing:.12em;margin-bottom:9px}
+    .muted{color:var(--muted)}
+    .rule{height:1px;background:var(--line);margin:18px 0}
+    .actions{display:flex;gap:10px;margin-top:22px;flex-wrap:wrap}
+    .action{display:inline-flex;align-items:center;justify-content:center;min-height:38px;padding:0 15px;border:1px solid #8e6878;background:var(--rosewash);font-size:11px;font-weight:700;color:#4e2f3d;letter-spacing:.02em}
+    .action.secondary{background:#fff;border-color:var(--line);color:#4f454a}
+    .proposal{font-size:9px;color:#735b65;text-transform:uppercase;letter-spacing:.08em;margin-left:5px}
+    .hero{display:grid;grid-template-columns:1.08fr .92fr;gap:36px;align-items:center;min-height:300px}
+    .imagebox{background:repeating-linear-gradient(135deg,#f7f3f5 0 14px,#eee8eb 14px 28px);border:1px dashed #ad9ea6;display:flex;align-items:center;justify-content:center;color:#665861;text-align:center;padding:18px;min-height:210px;font-size:11px;line-height:1.5}
+    .imagebox.portrait{height:270px}
+    .imagebox.wide{height:190px}
+    .columns{display:grid;grid-template-columns:repeat(3,1fr);gap:15px}
+    .columns.two{grid-template-columns:repeat(2,1fr)}
+    .block{border:1px solid var(--line);background:var(--wash);padding:15px;min-height:92px}
+    .block p{font-size:11px;margin:0}
+    .tag{display:inline-block;border:1px solid var(--line);padding:5px 9px;margin:3px 4px 3px 0;background:#fff;font-size:10px;color:#554951}
+    .works{display:grid;grid-template-columns:repeat(4,1fr);gap:13px}
+    .work .imagebox{height:125px;min-height:125px;padding:8px}
+    .work strong{display:block;font-size:11px;margin-top:7px}
+    .service-row{display:grid;grid-template-columns:190px 1fr 155px;gap:16px;align-items:center;border-top:1px solid var(--line);padding:12px 0}
+    .service-row:last-child{border-bottom:1px solid var(--line)}
+    .service-row p{font-size:11px;margin:0}
+    .small-action{font-size:10px;border:1px solid #ad8795;padding:9px;text-align:center;background:var(--rosewash)}
+    .term-grid{display:grid;grid-template-columns:210px 1fr;gap:24px}
+    .term-index{border:1px solid var(--line);background:var(--wash);padding:14px}
+    .term-index span{display:block;padding:6px 0;border-bottom:1px solid #e3dce0;font-size:10px}
+    .term-sections{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}
+    .term-sections .block{min-height:82px}
+    .player{height:235px;background:#211a1e;color:#fff;border:1px solid #695761;display:flex;align-items:center;justify-content:center;text-align:center;padding:20px;font-size:12px}
+    .player:before{content:"▶";font-size:25px;color:#e9c8d5;margin-right:12px}
+    .split{display:grid;grid-template-columns:1fr 1fr;gap:24px;align-items:start}
+    .mobile-content{display:none}
+    .note{margin:11px auto 0;max-width:1280px;font-size:10px;color:#675a61;text-align:right}
+    body.mobile .meta{height:31px;font-size:9px}
+    body.mobile .meta strong{font-size:10px}
+    body.mobile .device.mobile{margin:0 auto}
+    body.mobile .site-header{height:58px;flex-basis:58px;padding:0 17px}
+    body.mobile .brand{font-size:16px}
+    body.mobile .nav-label{display:none}
+    body.mobile .site-main{padding:21px 18px;overflow:hidden}
+    body.mobile .site-footer{height:48px;flex-basis:48px;padding:14px 16px;font-size:8px}
+    body.mobile h1{font-size:29px}
+    body.mobile h2{font-size:17px}
+    body.mobile p{font-size:11px}
+    body.mobile .hero{display:flex;flex-direction:column;align-items:stretch;gap:17px;min-height:0}
+    body.mobile .hero .imagebox{height:185px;min-height:185px}
+    body.mobile .actions{margin-top:14px}
+    body.mobile .action{min-height:35px;padding:0 10px;font-size:9px}
+    body.mobile .columns,body.mobile .columns.two{grid-template-columns:1fr;gap:8px}
+    body.mobile .block{min-height:62px;padding:11px}
+    body.mobile .works{grid-template-columns:repeat(2,1fr);gap:8px}
+    body.mobile .work .imagebox{height:94px;min-height:94px}
+    body.mobile .service-row{grid-template-columns:1fr;gap:7px;padding:10px 0}
+    body.mobile .small-action{width:max-content;padding:8px 11px}
+    body.mobile .term-grid{grid-template-columns:1fr;gap:10px}
+    body.mobile .term-index{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:5px;overflow:visible;padding:8px}
+    body.mobile .term-index span{white-space:normal;text-align:center;border:1px solid var(--line);padding:5px 7px}
+    body.mobile .term-sections{grid-template-columns:1fr;gap:7px}
+    body.mobile .term-sections .block{min-height:54px}
+    body.mobile .player{height:150px}
+    body.mobile .split{grid-template-columns:1fr;gap:12px}
+    body.mobile .note{font-size:8px;text-align:center}
+    .mobile .eyebrow{font-size:9px}
+  </style>
+</head>
+<body>
+  <div id="root"></div>
+  <script>
+    const labels={"home-desktop":"Inicio · escritorio","home-mobile":"Inicio · móvil","about-desktop":"Sobre mí · escritorio","services-desktop":"Servicios · escritorio","services-mobile":"Servicios · móvil","portfolio-desktop":"Portafolio · escritorio","showcase-desktop":"Showcase · escritorio","terms-desktop":"Términos · escritorio","terms-mobile":"Términos · móvil"};
+    const footer='<footer class="site-footer"><span>CONTACT · EMAIL · VGEN · X</span><span>ASUMMERTENSHI · © 2026</span></footer>';
+    const header='<header class="site-header"><span class="brand">ASummerTenshi</span><nav class="nav-label" aria-label="Navegación principal"><span>ABOUT ME</span><span>SERVICES</span><span>PORTFOLIO</span><span>SHOWCASE</span><span>TERMS</span></nav><span class="burger"><i></i> MENU</span></header>';
+    const art='<div class="imagebox portrait">[IMAGEN ORIGINAL DE PERSONAJE / ARTE VTUBER]</div>';
+    function home(mobile){return `<main class="site-main"><section class="hero"><div><div class="eyebrow">VTUBER ARTIST · LIVE2D RIGGER</div><h1>ASummerTenshi</h1><p>Personajes virtuales con identidad visual propia, ilustración anime y movimiento expresivo.</p><div class="actions"><span class="action">EXPLORE SERVICES <b class="proposal">CTA sugerida</b></span><span class="action secondary">VIEW PORTFOLIO</span></div></div>${art}</section><div class="rule"></div><section><h2>Selected work</h2><div class="columns"><div class="block"><h3>Character design</h3><p>Diseño, vestuario e identidad del personaje.</p></div><div class="block"><h3>Live2D</h3><p>Arte preparado y rigging para streaming.</p></div><div class="block"><h3>Illustration</h3><p>Emotes, fondos y piezas para canales.</p></div></div></section></main>`}
+    function about(){return `<main class="site-main"><div class="eyebrow">PROFILE · PRACTICE · DIRECTION</div><div class="split"><section><h1>About Me</h1><p>Summer Tenshi · VTuber Artist &amp; Live 2D Rigger</p><p>Estudiante de animación con enfoque en creación de VTubers, diseño de personajes, moda y desarrollo de identidad visual.</p><p>La práctica integra ilustración de estilo anime y rigging 2D para que el diseño mantenga coherencia desde la imagen hasta el movimiento.</p><div class="rule"></div><h2>Competencias principales</h2><div class="columns"><div class="block"><h3>Character art</h3><p>Concepto, vestuario e ilustración.</p></div><div class="block"><h3>Live2D rigging</h3><p>Parámetros, movimiento y expresiones.</p></div><div class="block"><h3>Commission workflow</h3><p>Alcance, revisiones y entrega.</p></div></div></section>${art}</div></main>`}
+    const services=[['Live 2D Rigging + Art','Diseño del personaje, PSD listo para rigging y modelo expresivo.'],['VTuber Art','Arte por encargo y archivos para redes.'],['Rigging Services','Modelo preparado para VTube Studio y expresiones.'],['Emotes','Paquetes de emotes estáticos o animados.'],['Illustration','Bust, medio cuerpo, cuerpo completo y fondos.']];
+    function serviceRows(){return services.map((s,i)=>`<div class="service-row"><h3>${s[0]}</h3><p>${s[1]} <span class="muted">· entregables, compatibilidad y complementos</span></p><span class="small-action">DETAILS / VGEN <b class="proposal">propuesta</b></span></div>`).join('')}
+    function servicePage(){return `<main class="site-main"><div class="eyebrow">COMMISSION CATALOG</div><h1>Services</h1><p>Elige el tipo de encargo y revisa qué incluye antes de solicitar cotización.</p><div>${serviceRows()}</div><div class="actions"><span class="action secondary">READ TERMS OF SERVICE</span><span class="action">START A COMMISSION <b class="proposal">CTA sugerida</b></span></div></main>`}
+    const projects=['Summer Tenshi Outfits','Awa Jelly Outfits','Strawberry Art','CRK OC Style','Background','Loading Screen','Celes Vtuber'];
+    function portfolio(){return `<main class="site-main"><div class="eyebrow">SELECTED WORK · 7 PIECES</div><h1>Portfolio</h1><p>Galería categorizada por proyecto, con imagen, título y disciplina principal.</p><div class="works">${projects.map((p,i)=>`<div class="work"><div class="imagebox">[OBRA ${String(i+1).padStart(2,'0')}]</div><strong>${p}</strong></div>`).join('')}</div></main>`}
+    function showcase(){return `<main class="site-main"><div class="eyebrow">LIVE MODEL DEMONSTRATIONS</div><h1>Showcase</h1><p>Dos demostraciones audiovisuales para apreciar modelo, expresiones y movimiento.</p><div class="columns two"><section><div class="player">[VIDEO / MODELO INTERACTIVO]</div><h3>Summer Tenshi Showcase</h3><p>Descripción, controles y enlace alternativo al video.</p></section><section><div class="player">[VIDEO / LOADING SCREEN]</div><h3>Summer Tenshi Loading Screen</h3><p>Descripción, controles y enlace alternativo al video.</p></section></div></main>`}
+    const terms=['Payments · 50/50','Revisions','Live2D','Deadlines & delivery','Intellectual property','Refunds'];
+    function termsPage(){return `<main class="site-main"><div class="eyebrow">COMMISSION POLICIES</div><h1>Terms of Service</h1><p>Condiciones organizadas para consultar pagos, cambios, tiempos, derechos y reembolsos.</p><div class="term-grid"><nav class="term-index" aria-label="Índice de términos">${terms.map(t=>`<span>${t}</span>`).join('')}</nav><div class="term-sections">${terms.map((t,i)=>`<section class="block"><h3>${t}</h3><p>${i===0?'Anticipo y saldo final.':i===3?'Tiempos estimados por tipo de encargo.':'Resumen y enlace a la condición completa.'}</p></section>`).join('')}</div></div><p class="proposal">El índice local es una mejora sugerida para la página larga.</p></main>`}
+    const frames={'home-desktop':['desktop','/',home(false)],'home-mobile':['mobile','/',home(true)],'about-desktop':['desktop','/about',about()],'services-desktop':['desktop','/services',servicePage()],'services-mobile':['mobile','/services',servicePage()],'portfolio-desktop':['desktop','/portfolio',portfolio()],'showcase-desktop':['desktop','/showcase',showcase()],'terms-desktop':['desktop','/terms',termsPage()],'terms-mobile':['mobile','/terms',termsPage()]};
+    const key=new URLSearchParams(location.search).get('frame')||location.hash.slice(1)||'home-desktop'; const [device,route,content]=frames[key]||frames['home-desktop']; document.body.className=device;
+    document.getElementById('root').innerHTML=`<div class="meta"><strong>WIREFRAME · BAJA FIDELIDAD · ${labels[key]||labels['home-desktop']}</strong><span>ASUMMERTENSHI · ${route}</span></div><div class="device ${device}">${header}${content}${footer}</div><div class="note">Estructura y jerarquía de contenido; no representa una interfaz final ni funciones ya desplegadas.</div>`;
+  </script>
+</body>
+</html>

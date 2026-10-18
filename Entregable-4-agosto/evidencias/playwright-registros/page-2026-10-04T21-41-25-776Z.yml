@@ -1,0 +1,42 @@
+- generic [ref=f54e2]:
+  - generic [ref=f54e3]:
+    - strong [ref=f54e4]: WIREFRAME · BAJA FIDELIDAD · Servicios · móvil
+    - generic [ref=f54e5]: ASUMMERTENSHI · /services
+  - generic [ref=f54e6]:
+    - banner [ref=f54e7]:
+      - generic [ref=f54e8]: ASummerTenshi
+      - generic [ref=f54e9]: MENU
+    - main [ref=f54e11]:
+      - generic [ref=f54e12]: COMMISSION CATALOG
+      - heading "Services" [level=1] [ref=f54e13]
+      - paragraph [ref=f54e14]: Elige el tipo de encargo y revisa qué incluye antes de solicitar cotización.
+      - generic [ref=f54e15]:
+        - generic [ref=f54e16]:
+          - heading "Live 2D Rigging + Art" [level=3] [ref=f54e17]
+          - paragraph [ref=f54e18]: Diseño del personaje, PSD listo para rigging y modelo expresivo. · entregables, compatibilidad y complementos
+          - generic [ref=f54e19]: DETAILS / VGEN propuesta
+        - generic [ref=f54e20]:
+          - heading "VTuber Art" [level=3] [ref=f54e21]
+          - paragraph [ref=f54e22]: Arte por encargo y archivos para redes. · entregables, compatibilidad y complementos
+          - generic [ref=f54e23]: DETAILS / VGEN propuesta
+        - generic [ref=f54e24]:
+          - heading "Rigging Services" [level=3] [ref=f54e25]
+          - paragraph [ref=f54e26]: Modelo preparado para VTube Studio y expresiones. · entregables, compatibilidad y complementos
+          - generic [ref=f54e27]: DETAILS / VGEN propuesta
+        - generic [ref=f54e28]:
+          - heading "Emotes" [level=3] [ref=f54e29]
+          - paragraph [ref=f54e30]: Paquetes de emotes estáticos o animados. · entregables, compatibilidad y complementos
+          - generic [ref=f54e31]: DETAILS / VGEN propuesta
+        - generic [ref=f54e32]:
+          - heading "Illustration" [level=3] [ref=f54e33]
+          - paragraph [ref=f54e34]: Bust, medio cuerpo, cuerpo completo y fondos. · entregables, compatibilidad y complementos
+          - generic [ref=f54e35]: DETAILS / VGEN propuesta
+      - generic [ref=f54e36]:
+        - generic [ref=f54e37]: READ TERMS OF SERVICE
+        - generic [ref=f54e38]:
+          - text: START A COMMISSION
+          - generic [ref=f54e39]: CTA sugerida
+    - contentinfo [ref=f54e40]:
+      - generic [ref=f54e41]: CONTACT · EMAIL · VGEN · X
+      - generic [ref=f54e42]: ASUMMERTENSHI · © 2026
+  - generic [ref=f54e43]: Estructura y jerarquía de contenido; no representa una interfaz final ni funciones ya desplegadas.

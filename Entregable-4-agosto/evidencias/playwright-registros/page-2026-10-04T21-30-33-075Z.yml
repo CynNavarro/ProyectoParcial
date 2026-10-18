@@ -1,0 +1,151 @@
+- generic [active] [ref=f43e1]:
+  - generic [ref=f43e3]:
+    - link [ref=f43e6] [cursor=pointer]:
+      - /url: /
+      - img "Amalthea Art" [ref=f43e7]
+    - list [ref=f43e10]:
+      - listitem [ref=f43e11]:
+        - link "Home" [ref=f43e12] [cursor=pointer]:
+          - /url: /
+      - listitem [ref=f43e13]:
+        - link "Vtuber Commissions" [ref=f43e14] [cursor=pointer]:
+          - /url: /vtuber-commissions.html
+      - listitem [ref=f43e15]:
+        - link "Graphic Commissions" [ref=f43e16] [cursor=pointer]:
+          - /url: /graphic-commissions.html
+      - listitem [ref=f43e17]:
+        - link "Portfolio" [ref=f43e18] [cursor=pointer]:
+          - /url: /portfolio.html
+      - listitem [ref=f43e19]:
+        - link "TOS" [ref=f43e20] [cursor=pointer]:
+          - /url: /tos.html
+      - listitem [ref=f43e21]:
+        - link "Reviews" [ref=f43e22] [cursor=pointer]:
+          - /url: /reviews.html
+  - generic [ref=f43e25]:
+    - heading "Vtuber commissions" [level=2] [ref=f43e31]
+    - generic [ref=f43e38]:
+      - heading "General information" [level=2] [ref=f43e39]
+      - generic [ref=f43e40]:
+        - generic [ref=f43e41]:
+          - generic [ref=f43e42]:
+            - strong [ref=f43e43]: What is a Vtuber model?
+            - text: A Vtuber model is a 2d or 3d avatar coded with specific softwares that will allow the user to create content through motion capture tracking.I only create 2d models with Live2d, an animation software. The process of the animation is called
+            - strong [ref=f43e44]: rigging
+            - text: ", which consists"
+          - generic [ref=f43e45]: of adding deformers and controllers to the "meshes" you want to animate.The rigging process is not automated; the rigger has to move and connect every single layer of the illustration to create a coherent movement. That's why the rig work only can take even 1-2 months, depending on the complexity.
+        - link "Click here to read my Terms of service." [ref=f43e46] [cursor=pointer]:
+          - /url: /tos.html
+        - strong [ref=f43e48]:
+          - generic [ref=f43e49]: BEWARE OF SCAMMERS AND IMPERSONATORS.My DISCORD ID is amalthea_art
+      - separator [ref=f43e52]
+      - heading "My artstyle" [level=2] [ref=f43e54]
+      - generic [ref=f43e55]:
+        - generic [ref=f43e56]: "I'm specialized with anime/manga or videogame style, but I also do semi-realistic characters.I accept:"
+        - list [ref=f43e57]:
+          - listitem [ref=f43e58]: Original Characters
+          - listitem [ref=f43e59]: Chibis
+          - listitem [ref=f43e60]: Characters from shows, anime, manga, videogames
+          - listitem [ref=f43e61]: Characters with animal traits
+          - listitem [ref=f43e62]: Masculine characters
+          - listitem [ref=f43e63]: Furry/Monsters
+        - text: Other that Vtuber models, I also do full illustration with backgrounds, character designs sheets and animated wallpapers.
+      - link "CLICK HERE TO SEE MY Portfolio" [ref=f43e66] [cursor=pointer]:
+        - /url: /portfolio.html
+      - separator [ref=f43e71]
+      - heading "Prices" [level=2] [ref=f43e73]
+      - generic [ref=f43e74]: "*Please note that all the prices are indicatives, because they depends on the complexity of the project. They may vary significantly*"
+      - table [ref=f43e78]:
+        - rowgroup [ref=f43e79]:
+          - row [ref=f43e80]:
+            - cell [ref=f43e81]:
+              - img "Picture" [ref=f43e85]
+            - cell [ref=f43e86]:
+              - generic [ref=f43e91]:
+                - strong [ref=f43e92]: BUST UP PNG
+                - list [ref=f43e93]:
+                  - listitem [ref=f43e94]:
+                    - strong [ref=f43e95]: Starts from €224
+                - generic [ref=f43e96]: INCLUDES:- Png file with all the textures- Photoshop file ready to be imported on Live2D
+                - strong [ref=f43e98]: BUST UP RIGGING
+                - list [ref=f43e99]:
+                  - listitem [ref=f43e100]:
+                    - strong [ref=f43e101]: Starts from €224
+                - text: INCLUDES:Face animation + breathing + X, Y, Z head movement (left, right, rotation)+ hair, bust, dress physics
+              - generic [ref=f43e103]:
+                - emphasis [ref=f43e105]
+                - text: ➥
+                - generic [ref=f43e106]:
+                  - emphasis [ref=f43e107]: What is a Bust up?
+                  - text: The model will be cut exactly below the chest area. This size is ideal for Vtubers that only wants to showcase facial expressions.
+              - separator [ref=f43e110]
+      - table [ref=f43e115]:
+        - rowgroup [ref=f43e116]:
+          - row [ref=f43e117]:
+            - cell [ref=f43e118]:
+              - img "Picture" [ref=f43e122]
+            - cell [ref=f43e123]:
+              - generic [ref=f43e128]:
+                - strong [ref=f43e130]: HALF BODY PNG
+                - list [ref=f43e131]:
+                  - listitem [ref=f43e132]:
+                    - strong [ref=f43e134]: Starts from €454
+                - generic [ref=f43e135]:
+                  - text: INCLUDES:- Png file with all the textures- Photoshop file ready to be imported on Live 2D
+                  - strong [ref=f43e136]: HALF BODY RIGGING
+                - list [ref=f43e137]:
+                  - listitem [ref=f43e138]:
+                    - strong [ref=f43e140]: Starts from €454
+                - generic [ref=f43e141]: INCLUDES:Face animation + breathing + X, Y, Z head, body, arms movement (left, right, rotation)+ hair, bust, dress physics
+              - generic [ref=f43e144]:
+                - emphasis [ref=f43e145]: ➥What is a Half body?
+                - text: The model will be cut exactly below the knees. This size is ideal for Vtubers that have complex designs but don't need to showcase a full body.
+              - separator [ref=f43e148]
+      - table [ref=f43e153]:
+        - rowgroup [ref=f43e154]:
+          - row [ref=f43e155]:
+            - cell [ref=f43e156]:
+              - img "Picture" [ref=f43e160]
+            - cell [ref=f43e161]:
+              - generic [ref=f43e166]:
+                - strong [ref=f43e168]: FULL BODY PNG
+                - list [ref=f43e169]:
+                  - listitem [ref=f43e170]:
+                    - strong [ref=f43e172]: Starts from €674
+                - generic [ref=f43e173]:
+                  - text: INCLUDES:- Png file with all the textures- Photoshop file ready to be imported on Live 2D
+                  - strong [ref=f43e174]: FULL BODY RIGGING
+                - list [ref=f43e175]:
+                  - listitem [ref=f43e176]:
+                    - strong [ref=f43e178]: Starts from €674
+                - generic [ref=f43e179]: INCLUDES:Face animation + breathing + X, Y, Z head, body, arms and legs movement (left, right, rotation)+ hair, bust, dress physics
+              - generic [ref=f43e181]:
+                - emphasis [ref=f43e182]: ➥What is a Full body?
+                - text: The model will be drawn/rigged in its entirely. This size is ideal for Vtubers that enjoy wide range of movements and outfits.
+      - separator [ref=f43e185]
+      - generic [ref=f43e192]:
+        - strong [ref=f43e193]: "ADD-ON:"
+        - text: Discount bundle for rig with 3 expressions =
+        - strong [ref=f43e194]: + € 84 (20% OFF!)
+        - text: Extra expressions or animations =
+        - strong [ref=f43e195]: Starts from + €35
+      - separator [ref=f43e198]
+      - strong [ref=f43e201]: © Amalthea Art 2022. All rights reserved.P.IVA 04033060924
+  - dialog [ref=f43e203]:
+    - generic [ref=f43e204]:
+      - heading [level=2] [ref=f43e205]:
+        - strong [ref=f43e206]: About cookies on this site
+      - paragraph [ref=f43e207]: We use cookies to collect and analyse information on site performance and usage, to provide social media features and to enhance and customise content and advertisements.
+      - paragraph [ref=f43e208]:
+        - link "Learn more" [ref=f43e209] [cursor=pointer]:
+          - /url: https://www.cookiehub.com/about-cookies
+    - generic [ref=f43e210]:
+      - button "Cookie settings" [ref=f43e211] [cursor=pointer]
+      - button "Deny all" [ref=f43e212] [cursor=pointer]
+      - button "Allow all cookies" [ref=f43e213] [cursor=pointer]
+  - link "Powered by Create your own unique website with customizable templates. Get Started" [ref=f43e215] [cursor=pointer]:
+    - /url: https://www.weebly.com/signup?utm_source=internal&utm_medium=footer
+    - generic [ref=f43e217]:
+      - text: Powered by
+      - generic [ref=f43e220]: Create your own unique website with customizable templates.
+      - button "Get Started" [ref=f43e222]

@@ -1,0 +1,69 @@
+/* Hallmark · component: site tokens · genre: atmospheric · theme: brand-locked (ASummerTenshi)
+ * paper: #080406 warm near-black · accent: pink #ff85a1 · display: Bricolage Grotesque + body: Outfit
+ * estados: tokens estáticos · contraste: texto marfil 4.5:1+ sobre fondo
+ * NOTA: paleta extraída del sitio vigente (redesign-preserve); no se sustituye, se tokeniza.
+ */
+
+:root {
+  /* ── Color: base ─────────────────────────────────────────── */
+  --color-bg: #080406;
+  --color-bg-elev: #120609;
+  --color-bg-card: #170a0e;
+  --color-line: rgba(255, 214, 224, 0.14);
+  --color-line-strong: rgba(255, 214, 224, 0.28);
+
+  /* ── Color: texto ────────────────────────────────────────── */
+  --color-ivory: #fff0f3;
+  --color-muted: rgba(255, 240, 243, 0.66);
+  --color-faint: rgba(255, 240, 243, 0.42);
+
+  /* ── Color: rosa de marca (escala documentada) ───────────── */
+  --color-pink-100: #ffd6e0;
+  --color-pink-200: #ffb3c6;
+  --color-pink-300: #ffc2d1;
+  --color-pink-400: #ff85a1;
+  --color-pink-500: #ff6b8a;
+  --color-pink-600: #e8607a;
+
+  --color-accent: var(--color-pink-400);
+  --color-accent-strong: var(--color-pink-600);
+  --color-accent-soft: var(--color-pink-100);
+
+  /* ── Fuentes ─────────────────────────────────────────────── */
+  --font-display: "Bricolage Grotesque", "Outfit", system-ui, sans-serif;
+  --font-body: "Outfit", system-ui, Avenir, Helvetica, Arial, sans-serif;
+  --font-accent: "Caveat", cursive;
+
+  /* ── Escala tipográfica ──────────────────────────────────── */
+  --text-hero: clamp(2.75rem, 7vw, 5.5rem);
+  --text-h1: clamp(2.25rem, 5vw, 3.5rem);
+  --text-h2: clamp(1.75rem, 3.5vw, 2.5rem);
+  --text-h3: clamp(1.25rem, 2.5vw, 1.5rem);
+  --text-body: 1.0625rem;
+  --text-small: 0.875rem;
+
+  /* ── Espaciado (escala 4pt) ──────────────────────────────── */
+  --space-xs: 0.5rem;
+  --space-sm: 1rem;
+  --space-md: 1.5rem;
+  --space-lg: 2.5rem;
+  --space-xl: 4rem;
+  --space-2xl: 6.5rem;
+
+  /* ── Forma ───────────────────────────────────────────────── */
+  --radius-sm: 8px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+  --radius-pill: 999px;
+
+  /* ── Movimiento ──────────────────────────────────────────── */
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --dur-fast: 150ms;
+  --dur-med: 300ms;
+  --dur-slow: 600ms;
+
+  /* ── Sombra (tinte rosa, nunca negro puro) ───────────────── */
+  --shadow-pink: 0 10px 40px rgba(232, 96, 122, 0.22);
+  --shadow-deep: 0 24px 80px rgba(0, 0, 0, 0.55);
+}

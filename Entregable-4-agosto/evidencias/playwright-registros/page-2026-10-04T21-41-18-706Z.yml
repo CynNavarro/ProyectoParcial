@@ -1,0 +1,50 @@
+- generic [ref=f52e2]:
+  - generic [ref=f52e3]:
+    - strong [ref=f52e4]: WIREFRAME · BAJA FIDELIDAD · Términos · escritorio
+    - generic [ref=f52e5]: ASUMMERTENSHI · /terms
+  - generic [ref=f52e6]:
+    - banner [ref=f52e7]:
+      - generic [ref=f52e8]: ASummerTenshi
+      - navigation "Navegación principal" [ref=f52e9]:
+        - generic [ref=f52e10]: ABOUT ME
+        - generic [ref=f52e11]: SERVICES
+        - generic [ref=f52e12]: PORTFOLIO
+        - generic [ref=f52e13]: SHOWCASE
+        - generic [ref=f52e14]: TERMS
+      - generic [ref=f52e15]: MENU
+    - main [ref=f52e17]:
+      - generic [ref=f52e18]: COMMISSION POLICIES
+      - heading "Terms of Service" [level=1] [ref=f52e19]
+      - paragraph [ref=f52e20]: Condiciones organizadas para consultar pagos, cambios, tiempos, derechos y reembolsos.
+      - generic [ref=f52e21]:
+        - navigation "Índice de términos" [ref=f52e22]:
+          - generic [ref=f52e23]: Payments · 50/50
+          - generic [ref=f52e24]: Revisions
+          - generic [ref=f52e25]: Live2D
+          - generic [ref=f52e26]: Deadlines & delivery
+          - generic [ref=f52e27]: Intellectual property
+          - generic [ref=f52e28]: Refunds
+        - generic [ref=f52e29]:
+          - generic [ref=f52e30]:
+            - heading "Payments · 50/50" [level=3] [ref=f52e31]
+            - paragraph [ref=f52e32]: Anticipo y saldo final.
+          - generic [ref=f52e33]:
+            - heading "Revisions" [level=3] [ref=f52e34]
+            - paragraph [ref=f52e35]: Resumen y enlace a la condición completa.
+          - generic [ref=f52e36]:
+            - heading "Live2D" [level=3] [ref=f52e37]
+            - paragraph [ref=f52e38]: Resumen y enlace a la condición completa.
+          - generic [ref=f52e39]:
+            - heading "Deadlines & delivery" [level=3] [ref=f52e40]
+            - paragraph [ref=f52e41]: Tiempos estimados por tipo de encargo.
+          - generic [ref=f52e42]:
+            - heading "Intellectual property" [level=3] [ref=f52e43]
+            - paragraph [ref=f52e44]: Resumen y enlace a la condición completa.
+          - generic [ref=f52e45]:
+            - heading "Refunds" [level=3] [ref=f52e46]
+            - paragraph [ref=f52e47]: Resumen y enlace a la condición completa.
+      - paragraph [ref=f52e48]: El índice local es una mejora sugerida para la página larga.
+    - contentinfo [ref=f52e49]:
+      - generic [ref=f52e50]: CONTACT · EMAIL · VGEN · X
+      - generic [ref=f52e51]: ASUMMERTENSHI · © 2026
+  - generic [ref=f52e52]: Estructura y jerarquía de contenido; no representa una interfaz final ni funciones ya desplegadas.

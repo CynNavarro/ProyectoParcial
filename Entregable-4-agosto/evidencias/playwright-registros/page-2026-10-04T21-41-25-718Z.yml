@@ -1,0 +1,36 @@
+- generic [ref=f53e2]:
+  - generic [ref=f53e3]:
+    - strong [ref=f53e4]: WIREFRAME · BAJA FIDELIDAD · Inicio · móvil
+    - generic [ref=f53e5]: ASUMMERTENSHI · /
+  - generic [ref=f53e6]:
+    - banner [ref=f53e7]:
+      - generic [ref=f53e8]: ASummerTenshi
+      - generic [ref=f53e9]: MENU
+    - main [ref=f53e11]:
+      - generic [ref=f53e12]:
+        - generic [ref=f53e13]:
+          - generic [ref=f53e14]: VTUBER ARTIST · LIVE2D RIGGER
+          - heading "ASummerTenshi" [level=1] [ref=f53e15]
+          - paragraph [ref=f53e16]: Personajes virtuales con identidad visual propia, ilustración anime y movimiento expresivo.
+          - generic [ref=f53e17]:
+            - generic [ref=f53e18]:
+              - text: EXPLORE SERVICES
+              - generic [ref=f53e19]: CTA sugerida
+            - generic [ref=f53e20]: VIEW PORTFOLIO
+        - generic [ref=f53e21]: "[IMAGEN ORIGINAL DE PERSONAJE / ARTE VTUBER]"
+      - generic [ref=f53e23]:
+        - heading "Selected work" [level=2] [ref=f53e24]
+        - generic [ref=f53e25]:
+          - generic [ref=f53e26]:
+            - heading "Character design" [level=3] [ref=f53e27]
+            - paragraph [ref=f53e28]: Diseño, vestuario e identidad del personaje.
+          - generic [ref=f53e29]:
+            - heading "Live2D" [level=3] [ref=f53e30]
+            - paragraph [ref=f53e31]: Arte preparado y rigging para streaming.
+          - generic [ref=f53e32]:
+            - heading "Illustration" [level=3] [ref=f53e33]
+            - paragraph [ref=f53e34]: Emotes, fondos y piezas para canales.
+    - contentinfo [ref=f53e35]:
+      - generic [ref=f53e36]: CONTACT · EMAIL · VGEN · X
+      - generic [ref=f53e37]: ASUMMERTENSHI · © 2026
+  - generic [ref=f53e38]: Estructura y jerarquía de contenido; no representa una interfaz final ni funciones ya desplegadas.

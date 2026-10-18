@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion'
-import fondoImg from '../assets/img/FONDO_1.png'
-import pixelImg from '../assets/img/pixel_summer-to-termsOfService.png'
+import fondoImg from '../assets/img/FONDO_1.webp'
+import pixelImg from '../assets/img/pixel_summer-to-termsOfService.webp'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import styles from './TermsPage.module.css'
@@ -21,7 +21,7 @@ export default function TermsPage() {
     <div className="page">
       <Navbar />
 
-      <main className="page-main">
+      <main className="page-main" id="main-content">
         {/* ── Banner ─────────────────────────────────────────── */}
         <section
           className={styles.banner}

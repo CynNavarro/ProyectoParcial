@@ -1,0 +1,70 @@
+- generic [ref=f21e3]:
+  - banner [ref=f21e4]:
+    - navigation "Navegación principal" [ref=f21e5]:
+      - link "Ir al inicio" [ref=f21e6] [cursor=pointer]:
+        - /url: /
+        - text: ASummerTenshi
+      - button "Cerrar menú" [expanded] [active] [ref=f21e50] [cursor=pointer]
+      - generic [aria-hidden] [ref=f21e51] [cursor=pointer]
+      - dialog "Menú de navegación" [ref=f21e52]:
+        - list [ref=f21e53]:
+          - listitem [ref=f21e54]:
+            - link "01. About Me" [ref=f21e55] [cursor=pointer]:
+              - /url: /about
+              - generic [ref=f21e56]: "01."
+              - text: About Me
+          - listitem [ref=f21e57]:
+            - link "02. Services" [ref=f21e58] [cursor=pointer]:
+              - /url: /services
+              - generic [ref=f21e59]: "02."
+              - text: Services
+          - listitem [ref=f21e60]:
+            - link "03. Portfolio" [ref=f21e61] [cursor=pointer]:
+              - /url: /portfolio
+              - generic [ref=f21e62]: "03."
+              - text: Portfolio
+          - listitem [ref=f21e63]:
+            - link "04. ShowCase Portfolio" [ref=f21e64] [cursor=pointer]:
+              - /url: /showcase
+              - generic [ref=f21e65]: "04."
+              - text: ShowCase Portfolio
+          - listitem [ref=f21e66]:
+            - link "05. Terms of Service" [ref=f21e67] [cursor=pointer]:
+              - /url: /terms
+              - generic [ref=f21e68]: "05."
+              - text: Terms of Service
+        - generic [ref=f21e69]:
+          - link "Email" [ref=f21e70] [cursor=pointer]:
+            - /url: mailto:summertenshi.comissions@gmail.com
+          - link "X / Twitter" [ref=f21e74] [cursor=pointer]:
+            - /url: https://x.com/ASummerTenshi
+          - link "VGen" [ref=f21e77] [cursor=pointer]:
+            - /url: https://vgen.co/ASummerTenshi
+  - main [ref=f21e10]:
+    - generic [ref=f21e13]:
+      - heading "ASummerTenshi" [level=1] [ref=f21e14]
+      - paragraph [ref=f21e15]: VTuber Artist & Live 2D Rigger
+  - contentinfo [ref=f21e17]:
+    - generic [ref=f21e18]:
+      - paragraph [ref=f21e19]: Communication
+      - list [ref=f21e20]:
+        - listitem [ref=f21e21]:
+          - link "Comissions Email" [ref=f21e22] [cursor=pointer]:
+            - /url: mailto:summertenshi.comissions@gmail.com
+            - generic [ref=f21e26]: summertenshi.comissions@gmail.com
+        - listitem [ref=f21e27]:
+          - link "X / Twitter DMs" [ref=f21e28] [cursor=pointer]:
+            - /url: https://x.com/ASummerTenshi
+            - generic [ref=f21e31]: "@ASummerTenshi"
+        - listitem [ref=f21e32]:
+          - link "VGen" [ref=f21e33] [cursor=pointer]:
+            - /url: https://vgen.co/ASummerTenshi
+            - generic [ref=f21e38]: vgen.co/ASummerTenshi
+        - listitem [ref=f21e39]:
+          - link "WhatsApp" [ref=f21e40] [cursor=pointer]:
+            - /url: https://wa.me/5215511450030
+        - listitem [ref=f21e44]:
+          - link "Llamada Telefónica" [ref=f21e45] [cursor=pointer]:
+            - /url: tel:+5215511450030
+            - generic [ref=f21e48]: Llamar ahora
+      - paragraph [ref=f21e49]: © 2026 ASummerTenshi. All rights reserved.

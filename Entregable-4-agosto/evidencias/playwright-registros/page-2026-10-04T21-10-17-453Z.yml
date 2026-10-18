@@ -1,0 +1,145 @@
+- generic [ref=f2e3]:
+  - banner [ref=f2e4]:
+    - navigation "Navegación principal" [ref=f2e5]:
+      - link "Ir al inicio" [ref=f2e6] [cursor=pointer]:
+        - /url: /
+        - text: ASummerTenshi
+      - button "Abrir menú" [ref=f2e7] [cursor=pointer]
+  - main [ref=f2e10]:
+    - generic [ref=f2e13]:
+      - heading "Services" [level=1] [ref=f2e14]
+      - paragraph [ref=f2e15]: ASummerTenshi Commissions
+    - generic [ref=f2e16]:
+      - generic [ref=f2e17]:
+        - heading "Live 2D Rigging + Art" [level=2] [ref=f2e18]
+        - generic [ref=f2e19]:
+          - img "Live 2D Rigging + Art"
+      - generic [ref=f2e20]:
+        - heading "Vtuber Art" [level=2] [ref=f2e21]
+        - generic [ref=f2e22]:
+          - generic [ref=f2e23]:
+            - heading "Includes" [level=4] [ref=f2e24]
+            - list [ref=f2e25]:
+              - listitem [ref=f2e26]: – A PSD ready to rig
+              - listitem [ref=f2e27]: – 5 free expressions
+              - listitem [ref=f2e28]: – High quality PNG for social media, edits, etc.
+          - generic [ref=f2e29]:
+            - heading "Details" [level=4] [ref=f2e30]
+            - list [ref=f2e31]:
+              - listitem [ref=f2e32]: – Character design is included — but if you already have a character, I can take it.
+              - listitem [ref=f2e33]: "– Compatibility: Live 2D Model."
+          - generic [ref=f2e34]:
+            - heading "Add-ons" [level=4] [ref=f2e35]
+            - list [ref=f2e36]:
+              - listitem [ref=f2e37]: – Extra expressions + $1 USD each
+              - listitem [ref=f2e38]: – Extra full costume + $30 USD
+              - listitem [ref=f2e39]: – Extra hand toggle + $2 USD each
+          - generic [ref=f2e40]:
+            - heading "Important" [level=4] [ref=f2e41]
+            - list [ref=f2e42]:
+              - listitem [ref=f2e43]: – Can't draw furry.
+              - listitem [ref=f2e44]: – NSFW only by personal request.
+      - generic [ref=f2e45]:
+        - heading "Rigging Services" [level=2] [ref=f2e46]
+        - generic [ref=f2e47]:
+          - generic [ref=f2e48]:
+            - heading "Includes" [level=4] [ref=f2e49]
+            - list [ref=f2e50]:
+              - listitem [ref=f2e51]: – .moc file ready to use in VTuber Studio
+              - listitem [ref=f2e52]: – VTuber texture
+              - listitem [ref=f2e53]: – VTuber animations and expression file
+              - listitem [ref=f2e54]: – 5 free expressions
+              - listitem [ref=f2e55]: – VBridger parameters
+          - generic [ref=f2e56]:
+            - heading "Details" [level=4] [ref=f2e57]
+            - list [ref=f2e58]:
+              - listitem [ref=f2e59]: – Character design is included — but if you already have a character, I can take it.
+              - listitem [ref=f2e60]: "– Compatibility: Live 2D Model."
+          - generic [ref=f2e61]:
+            - heading "Add-ons" [level=4] [ref=f2e62]
+            - list [ref=f2e63]:
+              - listitem [ref=f2e64]: – Extra expressions + $1 USD each
+              - listitem [ref=f2e65]: – Extra full costume + $65 USD
+              - listitem [ref=f2e66]: – Extra hand toggle + $4 USD each
+              - listitem [ref=f2e67]: – Cut PSD file + $35 USD
+          - generic [ref=f2e68]:
+            - heading "Important" [level=4] [ref=f2e69]
+            - list [ref=f2e70]:
+              - listitem [ref=f2e71]: – Can't draw furry.
+              - listitem [ref=f2e72]: – NSFW only by personal request.
+      - generic [ref=f2e73]:
+        - heading "Emotes" [level=2] [ref=f2e74]
+        - img "Emotes" [ref=f2e76]
+        - generic [ref=f2e77]:
+          - generic [ref=f2e78]:
+            - heading "Includes" [level=4] [ref=f2e79]
+            - list [ref=f2e80]:
+              - listitem [ref=f2e81]: – A 6-pack PSD file with all the emotes
+              - listitem [ref=f2e82]: – High quality PNG and JPEG for social media, edits, etc.
+          - generic [ref=f2e83]:
+            - heading "Details" [level=4] [ref=f2e84]
+            - list [ref=f2e85]:
+              - listitem [ref=f2e86]: – Pack of 6 customisable emotes
+          - generic [ref=f2e87]:
+            - heading "Add-ons" [level=4] [ref=f2e88]
+            - list [ref=f2e89]:
+              - listitem [ref=f2e90]: – Animated emote + $5 USD each
+          - generic [ref=f2e91]:
+            - heading "Important" [level=4] [ref=f2e92]
+            - list [ref=f2e93]:
+              - listitem [ref=f2e94]: – Can't draw furry.
+              - listitem [ref=f2e95]: – NSFW only by personal request.
+      - generic [ref=f2e96]:
+        - heading "Illustration" [level=2] [ref=f2e97]
+        - img "Illustration" [ref=f2e99]
+        - generic [ref=f2e100]:
+          - generic [ref=f2e101]:
+            - heading "Includes" [level=4] [ref=f2e102]
+            - list [ref=f2e103]:
+              - listitem [ref=f2e104]: – A PSD file with the illustration
+              - listitem [ref=f2e105]: – High quality PNG and JPEG for social media, edits, etc.
+              - listitem [ref=f2e106]: – If it is a PNGtuber, several PNGs and expressions are included within the file.
+          - generic [ref=f2e107]:
+            - heading "Details" [level=4] [ref=f2e108]
+            - list [ref=f2e109]:
+              - listitem [ref=f2e110]: "– Bust: $15 USD"
+              - listitem [ref=f2e111]: "– Half-body: $25 USD"
+              - listitem [ref=f2e112]: "– Full-body: $30 USD"
+              - listitem [ref=f2e113]: "– Simple Background: No cost"
+              - listitem [ref=f2e114]: "– Mid Detailed Background: No cost"
+              - listitem [ref=f2e115]: "– Complex Detailed Background: +$10 USD"
+          - generic [ref=f2e116]:
+            - heading "Add-ons" [level=4] [ref=f2e117]
+            - list [ref=f2e118]:
+              - listitem [ref=f2e119]: – Extra character + half price of the original USD each
+              - listitem [ref=f2e120]: – PNGtuber + $6 USD
+              - listitem [ref=f2e121]: – Animation + $60 USD
+          - generic [ref=f2e122]:
+            - heading "Important" [level=4] [ref=f2e123]
+            - list [ref=f2e124]:
+              - listitem [ref=f2e125]: – Can't draw furry.
+              - listitem [ref=f2e126]: – NSFW only by personal request.
+  - contentinfo [ref=f2e127]:
+    - generic [ref=f2e128]:
+      - paragraph [ref=f2e129]: Communication
+      - list [ref=f2e130]:
+        - listitem [ref=f2e131]:
+          - link "Comissions Email" [ref=f2e132] [cursor=pointer]:
+            - /url: mailto:summertenshi.comissions@gmail.com
+            - generic [ref=f2e136]: summertenshi.comissions@gmail.com
+        - listitem [ref=f2e137]:
+          - link "X / Twitter DMs" [ref=f2e138] [cursor=pointer]:
+            - /url: https://x.com/ASummerTenshi
+            - generic [ref=f2e141]: "@ASummerTenshi"
+        - listitem [ref=f2e142]:
+          - link "VGen" [ref=f2e143] [cursor=pointer]:
+            - /url: https://vgen.co/ASummerTenshi
+            - generic [ref=f2e148]: vgen.co/ASummerTenshi
+        - listitem [ref=f2e149]:
+          - link "WhatsApp" [ref=f2e150] [cursor=pointer]:
+            - /url: https://wa.me/5215511450030
+        - listitem [ref=f2e154]:
+          - link "Llamada Telefónica" [ref=f2e155] [cursor=pointer]:
+            - /url: tel:+5215511450030
+            - generic [ref=f2e158]: Llamar ahora
+      - paragraph [ref=f2e159]: © 2026 ASummerTenshi. All rights reserved.

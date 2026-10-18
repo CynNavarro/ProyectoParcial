@@ -1,0 +1,31 @@
+- generic [ref=f51e2]:
+  - generic [ref=f51e3]:
+    - strong [ref=f51e4]: WIREFRAME · BAJA FIDELIDAD · Showcase · escritorio
+    - generic [ref=f51e5]: ASUMMERTENSHI · /showcase
+  - generic [ref=f51e6]:
+    - banner [ref=f51e7]:
+      - generic [ref=f51e8]: ASummerTenshi
+      - navigation "Navegación principal" [ref=f51e9]:
+        - generic [ref=f51e10]: ABOUT ME
+        - generic [ref=f51e11]: SERVICES
+        - generic [ref=f51e12]: PORTFOLIO
+        - generic [ref=f51e13]: SHOWCASE
+        - generic [ref=f51e14]: TERMS
+      - generic [ref=f51e15]: MENU
+    - main [ref=f51e17]:
+      - generic [ref=f51e18]: LIVE MODEL DEMONSTRATIONS
+      - heading "Showcase" [level=1] [ref=f51e19]
+      - paragraph [ref=f51e20]: Dos demostraciones audiovisuales para apreciar modelo, expresiones y movimiento.
+      - generic [ref=f51e21]:
+        - generic [ref=f51e22]:
+          - generic [ref=f51e23]: ▶ [VIDEO / MODELO INTERACTIVO]
+          - heading "Summer Tenshi Showcase" [level=3] [ref=f51e24]
+          - paragraph [ref=f51e25]: Descripción, controles y enlace alternativo al video.
+        - generic [ref=f51e26]:
+          - generic [ref=f51e27]: ▶ [VIDEO / LOADING SCREEN]
+          - heading "Summer Tenshi Loading Screen" [level=3] [ref=f51e28]
+          - paragraph [ref=f51e29]: Descripción, controles y enlace alternativo al video.
+    - contentinfo [ref=f51e30]:
+      - generic [ref=f51e31]: CONTACT · EMAIL · VGEN · X
+      - generic [ref=f51e32]: ASUMMERTENSHI · © 2026
+  - generic [ref=f51e33]: Estructura y jerarquía de contenido; no representa una interfaz final ni funciones ya desplegadas.

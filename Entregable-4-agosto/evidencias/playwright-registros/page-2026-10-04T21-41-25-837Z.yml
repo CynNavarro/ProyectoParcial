@@ -1,0 +1,44 @@
+- generic [ref=f55e2]:
+  - generic [ref=f55e3]:
+    - strong [ref=f55e4]: WIREFRAME · BAJA FIDELIDAD · Términos · móvil
+    - generic [ref=f55e5]: ASUMMERTENSHI · /terms
+  - generic [ref=f55e6]:
+    - banner [ref=f55e7]:
+      - generic [ref=f55e8]: ASummerTenshi
+      - generic [ref=f55e9]: MENU
+    - main [ref=f55e11]:
+      - generic [ref=f55e12]: COMMISSION POLICIES
+      - heading "Terms of Service" [level=1] [ref=f55e13]
+      - paragraph [ref=f55e14]: Condiciones organizadas para consultar pagos, cambios, tiempos, derechos y reembolsos.
+      - generic [ref=f55e15]:
+        - navigation "Índice de términos" [ref=f55e16]:
+          - generic [ref=f55e17]: Payments · 50/50
+          - generic [ref=f55e18]: Revisions
+          - generic [ref=f55e19]: Live2D
+          - generic [ref=f55e20]: Deadlines & delivery
+          - generic [ref=f55e21]: Intellectual property
+          - generic [ref=f55e22]: Refunds
+        - generic [ref=f55e23]:
+          - generic [ref=f55e24]:
+            - heading "Payments · 50/50" [level=3] [ref=f55e25]
+            - paragraph [ref=f55e26]: Anticipo y saldo final.
+          - generic [ref=f55e27]:
+            - heading "Revisions" [level=3] [ref=f55e28]
+            - paragraph [ref=f55e29]: Resumen y enlace a la condición completa.
+          - generic [ref=f55e30]:
+            - heading "Live2D" [level=3] [ref=f55e31]
+            - paragraph [ref=f55e32]: Resumen y enlace a la condición completa.
+          - generic [ref=f55e33]:
+            - heading "Deadlines & delivery" [level=3] [ref=f55e34]
+            - paragraph [ref=f55e35]: Tiempos estimados por tipo de encargo.
+          - generic [ref=f55e36]:
+            - heading "Intellectual property" [level=3] [ref=f55e37]
+            - paragraph [ref=f55e38]: Resumen y enlace a la condición completa.
+          - generic [ref=f55e39]:
+            - heading "Refunds" [level=3] [ref=f55e40]
+            - paragraph [ref=f55e41]: Resumen y enlace a la condición completa.
+      - paragraph [ref=f55e42]: El índice local es una mejora sugerida para la página larga.
+    - contentinfo [ref=f55e43]:
+      - generic [ref=f55e44]: CONTACT · EMAIL · VGEN · X
+      - generic [ref=f55e45]: ASUMMERTENSHI · © 2026
+  - generic [ref=f55e46]: Estructura y jerarquía de contenido; no representa una interfaz final ni funciones ya desplegadas.

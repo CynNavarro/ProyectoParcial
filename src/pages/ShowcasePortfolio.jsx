@@ -1,6 +1,6 @@
 import { useRef } from 'react'
 import { motion, useInView } from 'framer-motion'
-import fondoImg from '../assets/img/FONDO_1.png'
+import fondoImg from '../assets/img/FONDO_1.webp'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import styles from './ShowcasePortfolio.module.css'
@@ -68,7 +68,7 @@ export default function ShowcasePortfolio() {
     <div className="page">
       <Navbar />
 
-      <main className="page-main">
+      <main className="page-main" id="main-content">
 
         {/* ── Banner ────────────────────────────────────────── */}
         <section

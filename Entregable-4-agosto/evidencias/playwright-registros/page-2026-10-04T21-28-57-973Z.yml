@@ -1,0 +1,104 @@
+- generic [ref=f28e3]:
+  - banner [ref=f28e4]:
+    - navigation "Navegación principal" [ref=f28e5]:
+      - link "Ir al inicio" [ref=f28e6] [cursor=pointer]:
+        - /url: /
+        - text: ASummerTenshi
+      - button "Abrir menú" [ref=f28e7] [cursor=pointer]
+  - main [ref=f28e10]:
+    - generic [ref=f28e13]:
+      - heading "Terms of Service" [level=1] [ref=f28e14]
+      - paragraph [ref=f28e15]: ASummerTenshi Commissions
+    - generic [ref=f28e16]:
+      - generic [ref=f28e17]:
+        - heading "Payments" [level=2] [ref=f28e18]
+        - generic [ref=f28e19]:
+          - heading "50/50 Plan" [level=3] [ref=f28e20]
+          - paragraph [ref=f28e21]: When starting the process, half of the payment must be sent. Once it has been accepted and completed, the other half of the payment is sent to release the product.
+          - paragraph [ref=f28e22]: No additional commercial fees are required.
+      - generic [ref=f28e23]:
+        - heading "Revisions" [level=2] [ref=f28e24]
+        - list [ref=f28e25]:
+          - listitem [ref=f28e26]:
+            - text: "– Sketch Phase: You are able to modify the sketch"
+            - strong [ref=f28e27]: 5 times
+            - text: .
+          - listitem [ref=f28e28]:
+            - text: "– Line Phase: You are able to modify"
+            - strong [ref=f28e29]: 3 times
+            - text: . If you want to change most pieces of the model (making a complete new design), you will have to pay extra
+            - strong [ref=f28e30]: $10 USD
+            - text: .
+          - listitem [ref=f28e31]:
+            - text: "– Color Phase: You are able to modify"
+            - strong [ref=f28e32]: 3 times
+            - text: . If you want to change most pieces of the model (making a complete new design), you will have to pay extra
+            - strong [ref=f28e33]: $30 USD
+            - text: .
+      - generic [ref=f28e34]:
+        - heading "Live 2D" [level=2] [ref=f28e35]
+        - list [ref=f28e36]:
+          - listitem [ref=f28e37]: – I will send you updates if you ask. When I finish the rig, I will send you a Showcase of the model.
+          - listitem [ref=f28e38]:
+            - text: – You are able to modify the rig
+            - strong [ref=f28e39]: 2 times
+            - text: .
+      - generic [ref=f28e40]:
+        - heading "Deadlines & Delivery" [level=2] [ref=f28e41]
+        - list [ref=f28e42]:
+          - listitem [ref=f28e43]: "– Vtuber art commission: 1–2 months"
+          - listitem [ref=f28e44]: "– Illustration commission: 1–5 weeks"
+          - listitem [ref=f28e45]: "– Rigging commission: 1–3 months"
+        - paragraph [ref=f28e46]: I only send the commission once I have received the full payment, then I will send you the files immediately.
+      - generic [ref=f28e47]:
+        - heading "Intellectual Property Rights" [level=2] [ref=f28e48]
+        - list [ref=f28e49]:
+          - listitem [ref=f28e50]:
+            - text: – The customer is guaranteed the right to use the model for
+            - strong [ref=f28e51]: personal and commercial purposes
+            - text: ", as well as to create and distribute derivative products."
+          - listitem [ref=f28e52]:
+            - text: – The sale of the model is permitted as long as it is
+            - strong [ref=f28e53]: limited to one buyer
+            - text: and not multiple people. I do not authorize selling it at a higher price.
+          - listitem [ref=f28e54]: – I do not allow the client to claim authorship of the art. In other words, the client may not say that they drew, rigged, or animated what they commissioned.
+          - listitem [ref=f28e55]: – If the model is not paid for in full upon completion, and after multiple reminders, I reserve the right to sell the commissioned model.
+      - generic [ref=f28e56]:
+        - heading "Refunds" [level=2] [ref=f28e57]
+        - generic [ref=f28e58]:
+          - heading "Art Commissions" [level=3] [ref=f28e59]
+          - list [ref=f28e60]:
+            - listitem [ref=f28e61]: "– No start / Sketch phase: 80% refunded"
+            - listitem [ref=f28e62]: "– Line phase: 50% refunded"
+            - listitem [ref=f28e63]: "– Color / Upon Completion phase: 10% refunded"
+        - generic [ref=f28e64]:
+          - heading "Live 2D Commissions" [level=3] [ref=f28e65]
+          - list [ref=f28e66]:
+            - listitem [ref=f28e67]: "– No start phase: 80% refunded"
+            - listitem [ref=f28e68]: "– Work in progress phase: 50% refunded"
+            - listitem [ref=f28e69]: "– Completion phase: 10% refunded"
+      - img "ASummerTenshi pixel art" [ref=f28e71]
+  - contentinfo [ref=f28e72]:
+    - generic [ref=f28e73]:
+      - paragraph [ref=f28e74]: Communication
+      - list [ref=f28e75]:
+        - listitem [ref=f28e76]:
+          - link "Comissions Email" [ref=f28e77] [cursor=pointer]:
+            - /url: mailto:summertenshi.comissions@gmail.com
+            - generic [ref=f28e81]: summertenshi.comissions@gmail.com
+        - listitem [ref=f28e82]:
+          - link "X / Twitter DMs" [ref=f28e83] [cursor=pointer]:
+            - /url: https://x.com/ASummerTenshi
+            - generic [ref=f28e86]: "@ASummerTenshi"
+        - listitem [ref=f28e87]:
+          - link "VGen" [ref=f28e88] [cursor=pointer]:
+            - /url: https://vgen.co/ASummerTenshi
+            - generic [ref=f28e93]: vgen.co/ASummerTenshi
+        - listitem [ref=f28e94]:
+          - link "WhatsApp" [ref=f28e95] [cursor=pointer]:
+            - /url: https://wa.me/5215511450030
+        - listitem [ref=f28e99]:
+          - link "Llamada Telefónica" [ref=f28e100] [cursor=pointer]:
+            - /url: tel:+5215511450030
+            - generic [ref=f28e103]: Llamar ahora
+      - paragraph [ref=f28e104]: © 2026 ASummerTenshi. All rights reserved.

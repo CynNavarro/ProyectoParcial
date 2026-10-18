@@ -1,0 +1,35 @@
+- generic [ref=f13e3]:
+  - banner [ref=f13e4]:
+    - navigation "Navegación principal" [ref=f13e5]:
+      - link "Ir al inicio" [ref=f13e6] [cursor=pointer]:
+        - /url: /
+        - text: ASummerTenshi
+      - button "Abrir menú" [ref=f13e7] [cursor=pointer]
+  - main [ref=f13e10]:
+    - generic [ref=f13e13]:
+      - heading "ASummerTenshi" [level=1] [ref=f13e14]
+      - paragraph [ref=f13e15]: VTuber Artist & Live 2D Rigger
+  - contentinfo [ref=f13e17]:
+    - generic [ref=f13e18]:
+      - paragraph [ref=f13e19]: Communication
+      - list [ref=f13e20]:
+        - listitem [ref=f13e21]:
+          - link "Comissions Email" [ref=f13e22] [cursor=pointer]:
+            - /url: mailto:summertenshi.comissions@gmail.com
+            - generic [ref=f13e26]: summertenshi.comissions@gmail.com
+        - listitem [ref=f13e27]:
+          - link "X / Twitter DMs" [ref=f13e28] [cursor=pointer]:
+            - /url: https://x.com/ASummerTenshi
+            - generic [ref=f13e31]: "@ASummerTenshi"
+        - listitem [ref=f13e32]:
+          - link "VGen" [ref=f13e33] [cursor=pointer]:
+            - /url: https://vgen.co/ASummerTenshi
+            - generic [ref=f13e38]: vgen.co/ASummerTenshi
+        - listitem [ref=f13e39]:
+          - link "WhatsApp" [ref=f13e40] [cursor=pointer]:
+            - /url: https://wa.me/5215511450030
+        - listitem [ref=f13e44]:
+          - link "Llamada Telefónica" [ref=f13e45] [cursor=pointer]:
+            - /url: tel:+5215511450030
+            - generic [ref=f13e48]: Llamar ahora
+      - paragraph [ref=f13e49]: © 2026 ASummerTenshi. All rights reserved.

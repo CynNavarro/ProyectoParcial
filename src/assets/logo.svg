@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="ASummerTenshi">
+  <defs>
+    <linearGradient id="pk" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffd6e0"/>
+      <stop offset="0.5" stop-color="#ff85a1"/>
+      <stop offset="1" stop-color="#e8607a"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Alas (Tenshi = ángel): trazo fino, puntas hacia arriba -->
+  <path d="M22 30 C12 27 7 19 9 10 C13 18 20 21 27 22"
+        fill="none" stroke="url(#pk)" stroke-width="3.2"
+        stroke-linecap="round"/>
+  <path d="M50 30 C60 27 65 19 63 10 C59 18 52 21 45 22"
+        fill="none" stroke="url(#pk)" stroke-width="3.2"
+        stroke-linecap="round"/>
+
+  <!-- Halo: aro que evoca sol de verano -->
+  <circle cx="36" cy="39" r="15.5" fill="none"
+          stroke="url(#pk)" stroke-width="3.2"/>
+
+  <!-- Destello central: estrella de cuatro puntas -->
+  <path d="M36 29.5 C36.8 34 37.8 35.2 42.5 36
+           C37.8 36.8 36.8 38 36 42.5
+           C35.2 38 34.2 36.8 29.5 36
+           C34.2 35.2 35.2 34 36 29.5 Z"
+        fill="url(#pk)"/>
+</svg>

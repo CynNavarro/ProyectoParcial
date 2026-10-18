@@ -1,9 +1,9 @@
 import { motion, useInView } from 'framer-motion'
 import { useRef } from 'react'
-import fondoImg   from '../assets/img/FONDO_1.png'
-import imgRigging from '../assets/img/SERVICES-seccion1-LIVE2DRIGGING+ART.png'
-import imgEmotes  from '../assets/img/SERVICES-seccion4-EMOTES.png'
-import imgIllust  from '../assets/img/SERVICES-seccion5-ILLUSTRATION.png'
+import fondoImg   from '../assets/img/FONDO_1.webp'
+import imgRigging from '../assets/img/SERVICES-seccion1-LIVE2DRIGGING+ART.webp'
+import imgEmotes  from '../assets/img/SERVICES-seccion4-EMOTES.webp'
+import imgIllust  from '../assets/img/SERVICES-seccion5-ILLUSTRATION.webp'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import styles from './ServicesPage.module.css'
@@ -175,7 +175,7 @@ export default function ServicesPage() {
     <div className="page">
       <Navbar />
 
-      <main className="page-main">
+      <main className="page-main" id="main-content">
 
         {/* ── Banner ───────────────────────────────────────── */}
         <section

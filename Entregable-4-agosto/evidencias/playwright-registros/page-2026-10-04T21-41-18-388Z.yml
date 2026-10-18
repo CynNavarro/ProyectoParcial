@@ -1,0 +1,42 @@
+- generic [ref=f47e2]:
+  - generic [ref=f47e3]:
+    - strong [ref=f47e4]: WIREFRAME · BAJA FIDELIDAD · Inicio · escritorio
+    - generic [ref=f47e5]: ASUMMERTENSHI · /
+  - generic [ref=f47e6]:
+    - banner [ref=f47e7]:
+      - generic [ref=f47e8]: ASummerTenshi
+      - navigation "Navegación principal" [ref=f47e9]:
+        - generic [ref=f47e10]: ABOUT ME
+        - generic [ref=f47e11]: SERVICES
+        - generic [ref=f47e12]: PORTFOLIO
+        - generic [ref=f47e13]: SHOWCASE
+        - generic [ref=f47e14]: TERMS
+      - generic [ref=f47e15]: MENU
+    - main [ref=f47e17]:
+      - generic [ref=f47e18]:
+        - generic [ref=f47e19]:
+          - generic [ref=f47e20]: VTUBER ARTIST · LIVE2D RIGGER
+          - heading "ASummerTenshi" [level=1] [ref=f47e21]
+          - paragraph [ref=f47e22]: Personajes virtuales con identidad visual propia, ilustración anime y movimiento expresivo.
+          - generic [ref=f47e23]:
+            - generic [ref=f47e24]:
+              - text: EXPLORE SERVICES
+              - generic [ref=f47e25]: CTA sugerida
+            - generic [ref=f47e26]: VIEW PORTFOLIO
+        - generic [ref=f47e27]: "[IMAGEN ORIGINAL DE PERSONAJE / ARTE VTUBER]"
+      - generic [ref=f47e29]:
+        - heading "Selected work" [level=2] [ref=f47e30]
+        - generic [ref=f47e31]:
+          - generic [ref=f47e32]:
+            - heading "Character design" [level=3] [ref=f47e33]
+            - paragraph [ref=f47e34]: Diseño, vestuario e identidad del personaje.
+          - generic [ref=f47e35]:
+            - heading "Live2D" [level=3] [ref=f47e36]
+            - paragraph [ref=f47e37]: Arte preparado y rigging para streaming.
+          - generic [ref=f47e38]:
+            - heading "Illustration" [level=3] [ref=f47e39]
+            - paragraph [ref=f47e40]: Emotes, fondos y piezas para canales.
+    - contentinfo [ref=f47e41]:
+      - generic [ref=f47e42]: CONTACT · EMAIL · VGEN · X
+      - generic [ref=f47e43]: ASUMMERTENSHI · © 2026
+  - generic [ref=f47e44]: Estructura y jerarquía de contenido; no representa una interfaz final ni funciones ya desplegadas.

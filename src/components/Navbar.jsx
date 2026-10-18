@@ -1,21 +1,23 @@
-import { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
+import { useState, useEffect, useRef } from "react";
+import { Link, NavLink } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X, Twitter, Mail, ExternalLink } from "lucide-react";
+import logoImg from "../assets/logo.svg";
 import styles from "./Navbar.module.css";
 
 const navLinks = [
-  { label: "About Me",         href: "/about",      isRoute: true  },
-  { label: "Services",         href: "/services",   isRoute: true  },
-  { label: "Portfolio",              href: "/portfolio",  isRoute: true  },
-  { label: "ShowCase Portfolio",     href: "/showcase",   isRoute: true  },
-  { label: "Terms of Service",       href: "/terms",      isRoute: true  },
+  { label: "About Me",             href: "/about"     },
+  { label: "Services",             href: "/services"  },
+  { label: "Portfolio",            href: "/portfolio" },
+  { label: "ShowCase Portfolio",   href: "/showcase"  },
+  { label: "Terms of Service",     href: "/terms"     },
+  { label: "Contact",              href: "/contact"   },
 ];
 
 const socialLinks = [
   { icon: Mail,        href: "mailto:summertenshi.comissions@gmail.com", label: "Email"       },
-  { icon: Twitter,     href: "https://x.com/ASummerTenshi",             label: "X / Twitter" },
-  { icon: ExternalLink,href: "https://vgen.co/ASummerTenshi",           label: "VGen"        },
+  { icon: Twitter,     href: "https://x.com/ASummerTenshi",              label: "X / Twitter" },
+  { icon: ExternalLink,href: "https://vgen.co/ASummerTenshi",            label: "VGen"        },
 ];
 
 // ── Variantes de animación ──────────────────────────────────
@@ -58,16 +60,50 @@ const iconVariants = {
 export default function Navbar() {
   const [isOpen, setIsOpen]     = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  const menuRef  = useRef(null);
+  const closeRef = useRef(null);
 
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 20);
-    window.addEventListener("scroll", handleScroll);
+    window.addEventListener("scroll", handleScroll, { passive: true });
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
   useEffect(() => {
     document.body.style.overflow = isOpen ? "hidden" : "unset";
     return () => { document.body.style.overflow = "unset"; };
+  }, [isOpen]);
+
+  // Escape cierra el menú; foco va al primer enlace al abrir
+  useEffect(() => {
+    if (!isOpen) return;
+    const first = menuRef.current?.querySelector("a, button");
+    first?.focus();
+
+    const handleKey = (e) => {
+      if (e.key === "Escape") {
+        setIsOpen(false);
+        closeRef.current?.focus();
+        return;
+      }
+      // Trampa de foco simple dentro del drawer
+      if (e.key === "Tab") {
+        const focusables = menuRef.current?.querySelectorAll("a, button");
+        if (!focusables?.length) return;
+        const list = [...focusables];
+        const firstEl = list[0];
+        const lastEl = list[list.length - 1];
+        if (e.shiftKey && document.activeElement === firstEl) {
+          e.preventDefault();
+          lastEl.focus();
+        } else if (!e.shiftKey && document.activeElement === lastEl) {
+          e.preventDefault();
+          firstEl.focus();
+        }
+      }
+    };
+    document.addEventListener("keydown", handleKey);
+    return () => document.removeEventListener("keydown", handleKey);
   }, [isOpen]);
 
   const handleLinkClick = () => setIsOpen(false);
@@ -80,12 +116,30 @@ export default function Navbar() {
         aria-label="Navegación principal"
       >
         {/* ── Logo ── */}
-        <Link to="/" className={styles.logo} aria-label="Ir al inicio">
-          ASummerTenshi
+        <Link to="/" className={styles.logoWrap} aria-label="ASummerTenshi, go to homepage">
+          <img src={logoImg} alt="" className={styles.logoMark} width="34" height="34" />
+          <span className={styles.logo}>ASummerTenshi</span>
         </Link>
 
-        {/* ── Botón hamburguesa ── */}
+        {/* ── Links escritorio ── */}
+        <ul className={styles.desktopLinks} role="list">
+          {navLinks.map(({ label, href }) => (
+            <li key={label}>
+              <NavLink
+                to={href}
+                className={({ isActive }) =>
+                  `${styles.navLink} ${isActive ? styles.active : ""}`
+                }
+              >
+                {label}
+              </NavLink>
+            </li>
+          ))}
+        </ul>
+
+        {/* ── Botón hamburguesa (móvil) ── */}
         <button
+          ref={closeRef}
           className={styles.menuButton}
           onClick={() => setIsOpen((prev) => !prev)}
           aria-expanded={isOpen}
@@ -138,6 +192,7 @@ export default function Navbar() {
         <AnimatePresence>
           {isOpen && (
             <motion.div
+              ref={menuRef}
               id="mobile-menu"
               className={styles.mobileMenu}
               variants={menuVariants}
@@ -149,31 +204,18 @@ export default function Navbar() {
               aria-label="Menú de navegación"
             >
               <ul className={styles.mobileLinks} role="list">
-                {navLinks.map(({ label, href, isRoute }, index) => (
+                {navLinks.map(({ label, href }, index) => (
                   <motion.li key={label} variants={linkVariants}>
-                    {isRoute ? (
-                      <Link
-                        to={href}
-                        className={styles.mobileLinkItem}
-                        onClick={handleLinkClick}
-                      >
-                        <span className={styles.mobileLinkNumber}>
-                          {String(index + 1).padStart(2, "0")}.
-                        </span>
-                        {label}
-                      </Link>
-                    ) : (
-                      <a
-                        href={href}
-                        className={styles.mobileLinkItem}
-                        onClick={handleLinkClick}
-                      >
-                        <span className={styles.mobileLinkNumber}>
-                          {String(index + 1).padStart(2, "0")}.
-                        </span>
-                        {label}
-                      </a>
-                    )}
+                    <Link
+                      to={href}
+                      className={styles.mobileLinkItem}
+                      onClick={handleLinkClick}
+                    >
+                      <span className={styles.mobileLinkNumber}>
+                        {String(index + 1).padStart(2, "0")}.
+                      </span>
+                      {label}
+                    </Link>
                   </motion.li>
                 ))}
               </ul>

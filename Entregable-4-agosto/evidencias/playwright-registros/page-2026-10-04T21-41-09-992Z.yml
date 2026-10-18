@@ -1,0 +1,48 @@
+- generic [ref=f46e2]:
+  - generic [ref=f46e3]:
+    - strong [ref=f46e4]: WIREFRAME · BAJA FIDELIDAD · Servicios · escritorio
+    - generic [ref=f46e5]: ASUMMERTENSHI · /services
+  - generic [ref=f46e6]:
+    - banner [ref=f46e7]:
+      - generic [ref=f46e8]: ASummerTenshi
+      - navigation "Navegación principal" [ref=f46e9]:
+        - generic [ref=f46e10]: ABOUT ME
+        - generic [ref=f46e11]: SERVICES
+        - generic [ref=f46e12]: PORTFOLIO
+        - generic [ref=f46e13]: SHOWCASE
+        - generic [ref=f46e14]: TERMS
+      - generic [ref=f46e15]: MENU
+    - main [ref=f46e17]:
+      - generic [ref=f46e18]: COMMISSION CATALOG
+      - heading "Services" [level=1] [ref=f46e19]
+      - paragraph [ref=f46e20]: Elige el tipo de encargo y revisa qué incluye antes de solicitar cotización.
+      - generic [ref=f46e21]:
+        - generic [ref=f46e22]:
+          - heading "Live 2D Rigging + Art" [level=3] [ref=f46e23]
+          - paragraph [ref=f46e24]: Diseño del personaje, PSD listo para rigging y modelo expresivo. · entregables, compatibilidad y complementos
+          - generic [ref=f46e25]: DETAILS / VGEN propuesta
+        - generic [ref=f46e26]:
+          - heading "VTuber Art" [level=3] [ref=f46e27]
+          - paragraph [ref=f46e28]: Arte por encargo y archivos para redes. · entregables, compatibilidad y complementos
+          - generic [ref=f46e29]: DETAILS / VGEN propuesta
+        - generic [ref=f46e30]:
+          - heading "Rigging Services" [level=3] [ref=f46e31]
+          - paragraph [ref=f46e32]: Modelo preparado para VTube Studio y expresiones. · entregables, compatibilidad y complementos
+          - generic [ref=f46e33]: DETAILS / VGEN propuesta
+        - generic [ref=f46e34]:
+          - heading "Emotes" [level=3] [ref=f46e35]
+          - paragraph [ref=f46e36]: Paquetes de emotes estáticos o animados. · entregables, compatibilidad y complementos
+          - generic [ref=f46e37]: DETAILS / VGEN propuesta
+        - generic [ref=f46e38]:
+          - heading "Illustration" [level=3] [ref=f46e39]
+          - paragraph [ref=f46e40]: Bust, medio cuerpo, cuerpo completo y fondos. · entregables, compatibilidad y complementos
+          - generic [ref=f46e41]: DETAILS / VGEN propuesta
+      - generic [ref=f46e42]:
+        - generic [ref=f46e43]: READ TERMS OF SERVICE
+        - generic [ref=f46e44]:
+          - text: START A COMMISSION
+          - generic [ref=f46e45]: CTA sugerida
+    - contentinfo [ref=f46e46]:
+      - generic [ref=f46e47]: CONTACT · EMAIL · VGEN · X
+      - generic [ref=f46e48]: ASUMMERTENSHI · © 2026
+  - generic [ref=f46e49]: Estructura y jerarquía de contenido; no representa una interfaz final ni funciones ya desplegadas.

@@ -1,0 +1,47 @@
+- generic [ref=f23e3]:
+  - banner [ref=f23e4]:
+    - navigation "Navegación principal" [ref=f23e5]:
+      - link "Ir al inicio" [ref=f23e6] [cursor=pointer]:
+        - /url: /
+        - text: ASummerTenshi
+      - button "Abrir menú" [ref=f23e7] [cursor=pointer]
+  - main [ref=f23e10]:
+    - generic [ref=f23e13]:
+      - heading "ShowCase Portfolio" [level=1] [ref=f23e14]
+      - paragraph [ref=f23e15]: Live2D Models — ASummerTenshi
+    - generic [ref=f23e16]:
+      - article [ref=f23e17]:
+        - iframe [ref=f23e19]
+        - generic [ref=f23e20]:
+          - generic [ref=f23e21]: "01."
+          - heading "Summer Tenshi Showcase" [level=3] [ref=f23e22]
+      - article [ref=f23e23]:
+        - iframe [ref=f23e25]:
+          - generic "Reproductor de video de YouTube" [ref=f25e3]
+        - generic [ref=f23e26]:
+          - generic [ref=f23e27]: "02."
+          - heading "Summer Tenshi Loading Screen" [level=3] [ref=f23e28]
+  - contentinfo [ref=f23e29]:
+    - generic [ref=f23e30]:
+      - paragraph [ref=f23e31]: Communication
+      - list [ref=f23e32]:
+        - listitem [ref=f23e33]:
+          - link "Comissions Email" [ref=f23e34] [cursor=pointer]:
+            - /url: mailto:summertenshi.comissions@gmail.com
+            - generic [ref=f23e38]: summertenshi.comissions@gmail.com
+        - listitem [ref=f23e39]:
+          - link "X / Twitter DMs" [ref=f23e40] [cursor=pointer]:
+            - /url: https://x.com/ASummerTenshi
+            - generic [ref=f23e43]: "@ASummerTenshi"
+        - listitem [ref=f23e44]:
+          - link "VGen" [ref=f23e45] [cursor=pointer]:
+            - /url: https://vgen.co/ASummerTenshi
+            - generic [ref=f23e50]: vgen.co/ASummerTenshi
+        - listitem [ref=f23e51]:
+          - link "WhatsApp" [ref=f23e52] [cursor=pointer]:
+            - /url: https://wa.me/5215511450030
+        - listitem [ref=f23e56]:
+          - link "Llamada Telefónica" [ref=f23e57] [cursor=pointer]:
+            - /url: tel:+5215511450030
+            - generic [ref=f23e60]: Llamar ahora
+      - paragraph [ref=f23e61]: © 2026 ASummerTenshi. All rights reserved.

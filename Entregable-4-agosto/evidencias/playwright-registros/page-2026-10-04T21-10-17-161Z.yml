@@ -1,0 +1,41 @@
+- generic [ref=f1e3]:
+  - banner [ref=f1e4]:
+    - navigation "Navegación principal" [ref=f1e5]:
+      - link "Ir al inicio" [ref=f1e6] [cursor=pointer]:
+        - /url: /
+        - text: ASummerTenshi
+      - button "Abrir menú" [ref=f1e7] [cursor=pointer]
+  - main [ref=f1e10]:
+    - generic [ref=f1e13]:
+      - heading "About Me" [level=1] [ref=f1e14]
+      - paragraph [ref=f1e15]: VTuber Artist & Live 2D Rigger
+    - generic [ref=f1e17]:
+      - heading "Summer Tenshi" [level=2] [ref=f1e18]
+      - generic [ref=f1e19]:
+        - paragraph [ref=f1e20]: I'm Summer Tenshi, a formally trained Animation student specializing in VTuber creation and digital character development. My main focus is character design, with a strong emphasis on fashion, clothing design, and visual identity.
+        - paragraph [ref=f1e21]: I work with anime-style illustration and 2D rigging, combining technical precision with artistic sensitivity to create expressive, functional, and visually cohesive characters. I'm particularly interested in designing models that feel alive and communicate personality through both design and movement.
+        - paragraph [ref=f1e22]: I'm constantly improving my skills and expanding my knowledge within the fields of animation, digital art, and character creation.
+  - contentinfo [ref=f1e23]:
+    - generic [ref=f1e24]:
+      - paragraph [ref=f1e25]: Communication
+      - list [ref=f1e26]:
+        - listitem [ref=f1e27]:
+          - link "Comissions Email" [ref=f1e28] [cursor=pointer]:
+            - /url: mailto:summertenshi.comissions@gmail.com
+            - generic [ref=f1e32]: summertenshi.comissions@gmail.com
+        - listitem [ref=f1e33]:
+          - link "X / Twitter DMs" [ref=f1e34] [cursor=pointer]:
+            - /url: https://x.com/ASummerTenshi
+            - generic [ref=f1e37]: "@ASummerTenshi"
+        - listitem [ref=f1e38]:
+          - link "VGen" [ref=f1e39] [cursor=pointer]:
+            - /url: https://vgen.co/ASummerTenshi
+            - generic [ref=f1e44]: vgen.co/ASummerTenshi
+        - listitem [ref=f1e45]:
+          - link "WhatsApp" [ref=f1e46] [cursor=pointer]:
+            - /url: https://wa.me/5215511450030
+        - listitem [ref=f1e50]:
+          - link "Llamada Telefónica" [ref=f1e51] [cursor=pointer]:
+            - /url: tel:+5215511450030
+            - generic [ref=f1e54]: Llamar ahora
+      - paragraph [ref=f1e55]: © 2026 ASummerTenshi. All rights reserved.

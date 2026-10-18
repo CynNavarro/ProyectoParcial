@@ -1,0 +1,297 @@
+- generic [active] [ref=f31e1]:
+  - generic [ref=f31e2]:
+    - generic [ref=f31e3]:
+      - link [ref=f31e4] [cursor=pointer]:
+        - /url: index.html
+      - heading [level=1] [ref=f31e9]:
+        - link "typeou.dev" [ref=f31e10] [cursor=pointer]:
+          - /url: index.html
+    - link "Live2D Comms" [ref=f31e13] [cursor=pointer]:
+      - /url: comms.html
+    - generic [ref=f31e17]:
+      - generic [ref=f31e18]:
+        - link "Home" [ref=f31e19] [cursor=pointer]:
+          - /url: index.html
+        - link "Live2D Commissions" [ref=f31e21] [cursor=pointer]:
+          - /url: comms.html
+        - link "Pricing" [ref=f31e23] [cursor=pointer]:
+          - /url: pricing.html
+        - link "Terms of Service" [ref=f31e25] [cursor=pointer]:
+          - /url: tos.html
+        - link "Definitions" [ref=f31e27] [cursor=pointer]:
+          - /url: definitions.html
+        - link "Contact" [ref=f31e29] [cursor=pointer]:
+          - /url: contact.html
+        - link "Finished Rigs" [ref=f31e31] [cursor=pointer]:
+          - /url: rigs.html
+        - link "KBonk Help" [ref=f31e33] [cursor=pointer]:
+          - /url: kbonk.html
+      - paragraph [ref=f31e35]: © 2026 Typeou.dev Technologies
+  - generic [ref=f31e49]:
+    - generic [ref=f31e52]:
+      - heading "Live2D VTuber Rigging Commissions" [level=2] [ref=f31e53]: Live2D VTuberRigging Commissions
+      - heading "Status:" [level=3] [ref=f31e54]
+      - heading "OPEN" [level=1] [ref=f31e55]
+      - heading [level=2] [ref=f31e56]:
+        - link "Application Link" [ref=f31e57] [cursor=pointer]:
+          - /url: https://docs.google.com/forms/d/e/1FAIpQLSc7VVzfrO5smuPuT8w8Bqfl-f2L5FdNUW6PoCX442lESDK6JA/viewform?usp=sf_link
+      - paragraph [ref=f31e58]:
+        - text: "In Progress:"
+        - generic [ref=f31e59]:
+          - text: Noona [Add-ons],
+          - link "Nico [Add-ons]" [ref=f31e60] [cursor=pointer]:
+            - /url: https://twitter.com/nicokittenfox
+      - paragraph [ref=f31e61]:
+        - text: "Queue:"
+        - generic [ref=f31e62]:
+          - text: R,
+          - link "Slyleaf" [ref=f31e63] [cursor=pointer]:
+            - /url: https://twitter.com/slyleaf
+          - text: ","
+          - link "Finn" [ref=f31e64] [cursor=pointer]:
+            - /url: https://twitter.com/SleeplessCafeVT
+          - text: ","
+          - link "Scarm" [ref=f31e65] [cursor=pointer]:
+            - /url: https://twitter.com/scarmvt
+      - paragraph [ref=f31e66]:
+        - generic [ref=f31e67]:
+          - text: For details, see
+          - link "Trello" [ref=f31e68] [cursor=pointer]:
+            - /url: https://trello.com/b/S1Esq1jw/
+          - text: .
+    - generic [ref=f31e70]:
+      - heading "Welcome!" [level=3] [ref=f31e71]
+      - paragraph [ref=f31e72]: I'm typeou (pronounced like typo), a Live2D rigger and crow person. caw I've been rigging regularly since mid-2021 and have rigged over 70 full-body models since then!
+      - paragraph [ref=f31e73]:
+        - text: I rig fully custom VTuber models with a focus on
+        - mark [ref=f31e74]: expressive faces and high-range head angles
+        - text: . I love rigging complex faces with
+        - link "VBridger" [ref=f31e75] [cursor=pointer]:
+          - /url: https://store.steampowered.com/app/1898830/VBridger/
+        - text: or
+        - link "Vitamins" [ref=f31e76] [cursor=pointer]:
+          - /url: https://store.steampowered.com/app/2187210/Vitamins/
+        - text: ", which allows for incredibly expressive faces without manual toggles!"
+      - paragraph [ref=f31e77]:
+        - text: I work best with artstyles similar to my model, as well as with feminine-presenting designs, but I have plenty of experience with other types of models. See my
+        - link "completed rigs" [ref=f31e78] [cursor=pointer]:
+          - /url: rigs.html
+        - text: section for examples!
+    - generic [ref=f31e80]:
+      - paragraph [ref=f31e81]: Commissions operate on an application system. I require finished model art before an application can be considered, and I do not offer waitlisting or reservations at this time. An exception to these rules is made for clients who commission their model art through my partnered artist, described below.
+      - paragraph [ref=f31e82]:
+        - text: Please read the entire
+        - link "Terms of Service" [ref=f31e83] [cursor=pointer]:
+          - /url: tos.html
+        - text: before contacting me or sending in an application.
+    - generic [ref=f31e86]:
+      - heading [level=2] [ref=f31e87]:
+        - mark [ref=f31e88]: Standard Features
+      - paragraph [ref=f31e89]: All rigs include standard facial rigging, high-range head angles, extensive body movements, advanced hair and clothing physics, and 5 simple toggles!
+      - paragraph [ref=f31e90]: Body rigging also includes stepping side-to-side, shoulders and hips, individual finger movements, as well as leaning in and out, and more!
+      - paragraph [ref=f31e91]: All movements are all controlled and augmented by physics for more weighty, bouncy, and realistic movements compared to conventional tracking.
+    - generic [ref=f31e93]:
+      - text: Standard Features, cont.
+      - list [ref=f31e94]:
+        - listitem [ref=f31e95]:
+          - mark [ref=f31e96]: Head Movements
+        - list [ref=f31e97]:
+          - listitem [ref=f31e98]:
+            - mark [ref=f31e99]: High-Range
+            - text: Left + Right Turns (X Angles)
+          - listitem [ref=f31e100]: Up + Down Turns (Y Angles)
+          - listitem [ref=f31e101]: Left + Right Tilt (Z Angles)
+        - listitem [ref=f31e102]:
+          - mark [ref=f31e103]: Hair + Clothing Physics
+        - list [ref=f31e104]:
+          - listitem [ref=f31e105]: Advanced X + Y physics
+          - listitem [ref=f31e106]: Expression-reactive hair
+          - list [ref=f31e107]:
+            - listitem [ref=f31e108]: and animal ears or similar, if applicable!
+          - listitem [ref=f31e109]: Ear, tail, wing, etc physics too!
+    - generic [ref=f31e111]:
+      - text: Standard Features, cont.
+      - list [ref=f31e112]:
+        - listitem [ref=f31e113]:
+          - mark [ref=f31e114]: Body Movements
+        - list [ref=f31e115]:
+          - listitem [ref=f31e116]: Left + Right turns (X Angles)
+          - listitem [ref=f31e117]: Left + Right tilt (Z Angles)
+          - listitem [ref=f31e118]: Left + Right stepping (X Position)
+          - listitem [ref=f31e119]: Up + Down movement (Y Position)
+          - listitem [ref=f31e120]:
+            - mark [ref=f31e121]: Lean In + Out
+            - text: (Z Position)
+          - listitem [ref=f31e122]: Miscellaneous
+          - list [ref=f31e123]:
+            - listitem [ref=f31e124]: Hips, Arms, Shoulders
+            - listitem [ref=f31e125]: Hands, Fingers, Toes
+            - listitem [ref=f31e126]: Idle Breathing
+    - generic [ref=f31e128]:
+      - text: Standard Features, cont.
+      - list [ref=f31e129]:
+        - listitem [ref=f31e130]:
+          - mark [ref=f31e131]: Eye Details
+        - list [ref=f31e132]:
+          - listitem [ref=f31e133]: Neutral/Widen/Close
+          - listitem [ref=f31e134]: Eye Smile (Squint)
+          - listitem [ref=f31e135]: Iris/Highlight/Eyelash Physics
+    - generic [ref=f31e137]:
+      - text: Standard Features, cont.
+      - list [ref=f31e138]:
+        - listitem [ref=f31e139]:
+          - mark [ref=f31e140]: Mouth Details
+        - list [ref=f31e141]:
+          - listitem [ref=f31e142]: Neutral/Smile/Frown
+          - listitem [ref=f31e143]: Vowel forms (AEIOU)
+          - listitem [ref=f31e144]: Mouth X (Left + Right Movement)
+    - generic [ref=f31e147]:
+      - heading [level=2] [ref=f31e148]:
+        - mark [ref=f31e149]: Advanced Features
+      - paragraph [ref=f31e150]:
+        - text: The advanced facial tracking offered by ARKit allows
+        - mark [ref=f31e151]: hugely more expressive
+        - text: VTuber models, especially when combined with
+        - link "VBridger" [ref=f31e152] [cursor=pointer]:
+          - /url: https://store.steampowered.com/app/1898830/VBridger/
+        - text: or
+        - link "Vitamins" [ref=f31e153] [cursor=pointer]:
+          - /url: https://store.steampowered.com/app/2187210/Vitamins/
+        - text: "!"
+      - paragraph [ref=f31e154]: I specialize in rigging faces with advanced ARKit parameters and they're one of my favourite things to rig!
+      - paragraph [ref=f31e155]:
+        - text: "I offer two tiers of advanced ARKit rigging: the basics you'd expect from VBridger's default advanced preset (Core), and an"
+        - mark [ref=f31e156]: even more complex and expressive
+        - text: version (Plus) based on my custom formulas.
+      - paragraph [ref=f31e157]:
+        - text: VBridger also allows the use of
+        - mark [ref=f31e158]: viseme-based microphone tracking
+        - text: ", providing incredibly accurate lip sync!"
+    - paragraph [ref=f31e161]:
+      - text: Please note that
+      - mark [ref=f31e162]: all add-ons in this section require an iPhone of 10th generation (X) or newer!
+    - generic [ref=f31e164]:
+      - text: Advanced Features, cont.
+      - list [ref=f31e165]:
+        - listitem [ref=f31e166]:
+          - mark [ref=f31e167]: Basic ARKit
+        - list [ref=f31e168]:
+          - listitem [ref=f31e169]: Cheek Puff
+          - listitem [ref=f31e170]: Tongue Out
+    - generic [ref=f31e172]:
+      - text: Advanced Features, cont.
+      - list [ref=f31e173]:
+        - listitem [ref=f31e174]:
+          - mark [ref=f31e175]: Advanced ARKit Core
+        - list [ref=f31e176]:
+          - listitem [ref=f31e177]: Advanced Mouth Forms
+          - list [ref=f31e178]:
+            - listitem [ref=f31e179]: Mouth Shrug, Pucker/Widen, Funnel
+            - listitem [ref=f31e180]: Lip Press/Open
+            - listitem [ref=f31e181]: Independent Jaw Open
+            - listitem [ref=f31e182]: Independent Left + Right Squint
+          - listitem [ref=f31e183]: Independent Squinting
+          - listitem [ref=f31e184]: Viseme-Based Tracking
+          - list [ref=f31e185]:
+            - listitem [ref=f31e186]: VBriger only
+          - listitem [ref=f31e187]: Custom Preset
+    - generic [ref=f31e189]:
+      - text: Advanced Features, cont.
+      - list [ref=f31e190]:
+        - listitem [ref=f31e191]:
+          - mark [ref=f31e192]: Advanced ARKit Plus
+        - list [ref=f31e193]:
+          - listitem [ref=f31e194]:
+            - text: Advanced Mouth Forms
+            - mark [ref=f31e195]: +
+          - list [ref=f31e196]:
+            - listitem [ref=f31e197]: Mouth Shrug, Pucker/Widen, Funnel
+            - listitem [ref=f31e198]:
+              - mark [ref=f31e200]: Per-Corner Lip Open
+            - listitem [ref=f31e201]:
+              - mark [ref=f31e203]: Left + Right Sneer
+            - listitem [ref=f31e204]: Independent Jaw Open
+            - listitem [ref=f31e205]: Independent Left + Right Squint
+          - listitem [ref=f31e206]: Independent Squinting
+          - listitem [ref=f31e207]: Independent Jaw Open
+          - listitem [ref=f31e208]:
+            - mark [ref=f31e209]: Extended Brow Forms
+          - list [ref=f31e210]:
+            - listitem [ref=f31e211]: Eyebrow Inner Up, Outer Up, Down
+          - listitem [ref=f31e212]:
+            - mark [ref=f31e213]: Angry Eye Form
+          - listitem [ref=f31e214]:
+            - text: Viseme-Based Tracking
+            - mark [ref=f31e215]: +
+          - list [ref=f31e216]:
+            - listitem [ref=f31e217]: VBridger only
+          - listitem [ref=f31e218]: Custom Preset
+    - paragraph [ref=f31e221]:
+      - text: Advanced ARKit Core/Plus
+      - mark [ref=f31e222]: does not include
+      - text: Cheek Puff or Tongue Out; they must be requested separately.
+    - generic [ref=f31e224]:
+      - heading "Process" [level=3] [ref=f31e225]
+      - list [ref=f31e226]:
+        - listitem [ref=f31e227]: Commissions are not necessarily first-come-first-serve.
+        - list [ref=f31e228]:
+          - listitem [ref=f31e229]:
+            - text: New commissions will typically be added to the end of my current
+            - link "queue" [ref=f31e230] [cursor=pointer]:
+              - /url: https://trello.com/b/S1Esq1jw/
+            - text: if no prior deadline is requested.
+          - listitem [ref=f31e231]:
+            - text: Requested deadlines that conflict with my prior queue may be subject to a
+            - mark [ref=f31e232]: rush service fee
+            - text: . Please
+            - link "contact" [ref=f31e233] [cursor=pointer]:
+              - /url: contact.html
+            - text: for details.
+        - listitem [ref=f31e234]: Turnaround time will vary depending on complexity and other factors.
+        - list [ref=f31e235]:
+          - listitem [ref=f31e236]: Typical turnaround time is 10-20 days from the time work begins.
+        - listitem [ref=f31e237]: "The rigging process typically follows these milestones:"
+        - list [ref=f31e238]:
+          - listitem [ref=f31e239]: Face rigging, such as mouth, eyes, and eyebrows,
+          - listitem [ref=f31e240]: Head angles, without hair,
+          - listitem [ref=f31e241]: Hair angles, without physics,
+          - listitem [ref=f31e242]: Body turns, including arms & legs, and
+          - listitem [ref=f31e243]: Hair, clothing, and accessory physics.
+          - listitem [ref=f31e244]: Toggles, animations, and other major add-ons.
+        - listitem [ref=f31e245]: Updates and opportunities for feedback will typically be provided at each of the aforementioned milestones.
+        - listitem [ref=f31e246]: Deliverables include the rigged model itself with VTube Studio settings, a readme, and VBridger + Vitamins settings files if applicable.
+        - listitem [ref=f31e247]:
+          - text: Deliverables
+          - mark [ref=f31e248]: do not, by default, include the .cmo3
+          - text: project file.
+        - list [ref=f31e249]:
+          - listitem [ref=f31e250]:
+            - text: Projects requiring delivery of the .cmo3 file are considered work for non-individuals as described in the
+            - link "Terms of Service" [ref=f31e251] [cursor=pointer]:
+              - /url: tos.html#commercial
+            - text: .
+          - listitem [ref=f31e252]:
+            - text: For details, please
+            - link "contact" [ref=f31e253] [cursor=pointer]:
+              - /url: contact.html
+            - text: .
+        - listitem [ref=f31e254]: Minor revisions are free.
+        - listitem [ref=f31e255]: Major revisions may incur fees depending on complexity.
+        - listitem [ref=f31e256]: Revisions due to rigging errors are always free.
+        - listitem [ref=f31e257]: I reserve the right to display the finished product on my page(s). Credit will be provided where possible.
+        - list [ref=f31e258]:
+          - listitem [ref=f31e259]: The finished product will not be officially displayed until it has begun full use by the client.
+    - heading [level=2] [ref=f31e262]:
+      - link "Application Link" [ref=f31e263] [cursor=pointer]:
+        - /url: https://docs.google.com/forms/d/e/1FAIpQLSc7VVzfrO5smuPuT8w8Bqfl-f2L5FdNUW6PoCX442lESDK6JA/viewform?usp=sf_link
+    - heading [level=3] [ref=f31e265]:
+      - link "Pricing" [ref=f31e266] [cursor=pointer]:
+        - /url: pricing.html
+    - link "Terms of Service" [ref=f31e268] [cursor=pointer]:
+      - /url: tos.html
+    - link "Definitions" [ref=f31e270] [cursor=pointer]:
+      - /url: definitions.html
+    - link "Contact" [ref=f31e272] [cursor=pointer]:
+      - /url: contact.html
+    - link "Finished Rigs" [ref=f31e274] [cursor=pointer]:
+      - /url: rigs.html

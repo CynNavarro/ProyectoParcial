@@ -1,0 +1,46 @@
+- generic [ref=f4e3]:
+  - banner [ref=f4e4]:
+    - navigation "Navegación principal" [ref=f4e5]:
+      - link "Ir al inicio" [ref=f4e6] [cursor=pointer]:
+        - /url: /
+        - text: ASummerTenshi
+      - button "Abrir menú" [ref=f4e7] [cursor=pointer]
+  - main [ref=f4e10]:
+    - generic [ref=f4e13]:
+      - heading "ShowCase Portfolio" [level=1] [ref=f4e14]
+      - paragraph [ref=f4e15]: Live2D Models — ASummerTenshi
+    - generic [ref=f4e16]:
+      - article [ref=f4e17]:
+        - iframe [ref=f4e19]
+        - generic [ref=f4e20]:
+          - generic [ref=f4e21]: "01."
+          - heading "Summer Tenshi Showcase" [level=3] [ref=f4e22]
+      - article [ref=f4e23]:
+        - iframe [ref=f4e25]
+        - generic [ref=f4e26]:
+          - generic [ref=f4e27]: "02."
+          - heading "Summer Tenshi Loading Screen" [level=3] [ref=f4e28]
+  - contentinfo [ref=f4e29]:
+    - generic [ref=f4e30]:
+      - paragraph [ref=f4e31]: Communication
+      - list [ref=f4e32]:
+        - listitem [ref=f4e33]:
+          - link "Comissions Email" [ref=f4e34] [cursor=pointer]:
+            - /url: mailto:summertenshi.comissions@gmail.com
+            - generic [ref=f4e38]: summertenshi.comissions@gmail.com
+        - listitem [ref=f4e39]:
+          - link "X / Twitter DMs" [ref=f4e40] [cursor=pointer]:
+            - /url: https://x.com/ASummerTenshi
+            - generic [ref=f4e43]: "@ASummerTenshi"
+        - listitem [ref=f4e44]:
+          - link "VGen" [ref=f4e45] [cursor=pointer]:
+            - /url: https://vgen.co/ASummerTenshi
+            - generic [ref=f4e50]: vgen.co/ASummerTenshi
+        - listitem [ref=f4e51]:
+          - link "WhatsApp" [ref=f4e52] [cursor=pointer]:
+            - /url: https://wa.me/5215511450030
+        - listitem [ref=f4e56]:
+          - link "Llamada Telefónica" [ref=f4e57] [cursor=pointer]:
+            - /url: tel:+5215511450030
+            - generic [ref=f4e60]: Llamar ahora
+      - paragraph [ref=f4e61]: © 2026 ASummerTenshi. All rights reserved.
