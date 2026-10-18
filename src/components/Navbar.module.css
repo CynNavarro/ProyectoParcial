@@ -36,21 +36,36 @@
   position: relative;
 }
 
-/* ── Logo oficial ───────────────────────────────────────────── */
+/* ── Logo oficial + marca ───────────────────────────────────── */
 .logoWrap {
   display: inline-flex;
   align-items: center;
+  gap: 0.6rem;
   text-decoration: none;
 }
 
 .logoImg {
-  height: 44px;
+  height: 40px;
   width: auto;
   display: block;
   filter: drop-shadow(0 2px 10px rgba(232, 96, 122, 0.4));
   transition: transform var(--dur-fast) var(--ease-out);
 }
-.logoWrap:hover .logoImg { transform: scale(1.05); }
+.logoWrap:hover .logoImg { transform: scale(1.06) rotate(-2deg); }
+
+.logo {
+  font-size: 1.12rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  font-family: var(--font-display);
+  white-space: nowrap;
+  background: linear-gradient(90deg, #ffd6e0, #ff85a1, #ffb3c6, #e8607a, #ffd6e0);
+  background-size: 300% 300%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradientShift 5s ease infinite;
+}
 
 @keyframes gradientShift {
   0%   { background-position: 0% 50%; }

@@ -37,7 +37,8 @@ export default function Footer() {
     <footer className={styles.footer}>
       <div className={styles.top}>
         <Link to="/" className={styles.brand} aria-label="ASummerTenshi, go to homepage">
-          <img src={logoImg} alt="ASummerTenshi" className={styles.brandImg} height="54" />
+          <img src={logoImg} alt="" className={styles.brandImg} height="46" />
+          <span className={styles.brandName}>ASummerTenshi</span>
         </Link>
 
         <nav aria-label="Footer navigation" className={styles.siteNav}>

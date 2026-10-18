@@ -115,9 +115,10 @@ export default function Navbar() {
         role="navigation"
         aria-label="Navegación principal"
       >
-        {/* ── Logo oficial ── */}
+        {/* ── Logo oficial + marca ── */}
         <Link to="/" className={styles.logoWrap} aria-label="ASummerTenshi, go to homepage">
-          <img src={logoImg} alt="ASummerTenshi" className={styles.logoImg} height="44" />
+          <img src={logoImg} alt="" className={styles.logoImg} height="40" />
+          <span className={styles.logo}>ASummerTenshi</span>
         </Link>
 
         {/* ── Links escritorio ── */}
