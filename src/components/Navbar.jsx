@@ -2,7 +2,6 @@ import { useState, useEffect, useRef } from "react";
 import { Link, NavLink } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X, Twitter, Mail, ExternalLink } from "lucide-react";
-import logoImg from "../assets/logo.svg";
 import styles from "./Navbar.module.css";
 
 const navLinks = [
@@ -117,7 +116,6 @@ export default function Navbar() {
       >
         {/* ── Logo ── */}
         <Link to="/" className={styles.logoWrap} aria-label="ASummerTenshi, go to homepage">
-          <img src={logoImg} alt="" className={styles.logoMark} width="34" height="34" />
           <span className={styles.logo}>ASummerTenshi</span>
         </Link>
 
