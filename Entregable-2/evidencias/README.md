@@ -22,15 +22,14 @@ Capturas tomadas con Playwright (Chromium) contra el sitio **en producción**, e
 
 ## `logo/` — 7 archivos
 
-Identidad gráfica del proyecto en formatos escalables y de tamaño fijo.
+Identidad gráfica oficial de la marca (logo de la artista, PNG con transparencia).
 
 | Archivo | Uso |
 |---|---|
-| `logo.svg` | Isotipo vectorial editable (halo, sol y destello) |
-| `logo-512.png` / `logo-192.png` / `logo-64.png` | Exportaciones raster a 512, 192 y 64 px (fondo transparente) |
+| `logo.png` | Logotipo maestro «SUMMER TENSHI» (1312 × 932, fondo transparente) |
+| `logo-512.png` / `logo-192.png` / `logo-64.png` | Exportaciones a ≈512, 192 y 64 px de ancho |
 | `logo-512-sobre-oscuro.png` | Aplicación sobre el color de fondo del sitio |
-| `logo-wordmark.png` | Isotipo acompañado del nombre de marca |
-| `favicon.svg` | Favicon del sitio (variante con fondo redondeado) |
+| `favicon.png` | Favicon del sitio (fondo oscuro redondeado) |
 
 ## `esquema-final/` — 2 archivos
 

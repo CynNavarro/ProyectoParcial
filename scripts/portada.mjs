@@ -9,9 +9,13 @@ const logo = (await readFile('src/assets/logo.svg')).toString();
 const fondo = (await readFile('src/assets/img/FONDO_1.webp')).toString('base64');
 
 const browser = await chromium.launch();
-const page = await browser.newPage();
+const page = await browser.newPage({ deviceScaleFactor: 2 });
 await page.setViewportSize({ width: 1240, height: 1754 });
-await page.setContent(`<html><head><style>
+await page.setContent(`<html><head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,800&family=Caveat:wght@400&family=Outfit:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
   * { margin: 0; padding: 0; box-sizing: border-box; }
   body {
     width: 1240px; height: 1754px; position: relative; overflow: hidden;
@@ -35,9 +39,11 @@ await page.setContent(`<html><head><style>
   .sub { font-size: 25px; color: rgba(255,240,243,0.82); letter-spacing: 0.05em; }
   .script { font-family: 'Caveat', cursive; font-size: 40px; color: #ffb3c6; }
   .rule { width: 190px; height: 2px; background: linear-gradient(90deg, transparent, #ff85a1, transparent); }
-  .meta { display: flex; flex-direction: column; gap: 9px; font-size: 19px; color: rgba(255,240,243,0.72); }
-  .meta b { color: #ffd6e0; font-weight: 600; }
-  .url { margin-top: 8px; font-size: 20px; color: #ffc2d1; letter-spacing: 0.06em; }
+  .meta { display: flex; flex-direction: column; gap: 12px; font-size: 19px; color: rgba(255,240,243,0.92); }
+  .meta .row { display: flex; justify-content: space-between; width: 620px; padding-bottom: 9px; border-bottom: 1px solid rgba(255,179,198,0.22); }
+  .meta .lbl { color: #ffd6e0; font-weight: 500; letter-spacing: 0.08em; text-transform: uppercase; font-size: 15px; align-self: center; }
+  .meta .val { font-weight: 400; text-align: right; }
+  .url { margin-top: 10px; font-size: 20px; color: #ffc2d1; letter-spacing: 0.18em; }
 </style></head><body>
   <div class="bg"></div><div class="shade"></div><div class="frame"></div>
   <div class="content">
@@ -48,15 +54,16 @@ await page.setContent(`<html><head><style>
     <div class="script">diseño, arte y rigging en un solo lugar</div>
     <div class="rule"></div>
     <div class="meta">
-      <div><b>Nombre de la estudiante:</b> ______________________________</div>
-      <div><b>Materia:</b> ______________________________</div>
-      <div><b>Docente:</b> ______________________________</div>
-      <div><b>Fecha de entrega:</b> ______________________________</div>
+      <div class="row"><span class="lbl">Estudiante</span><span class="val">Cynthia Valeria Navarro Velázquez</span></div>
+      <div class="row"><span class="lbl">Materia</span><span class="val">Arquitectura de Información y Diseño</span></div>
+      <div class="row"><span class="lbl">Docente</span><span class="val">Luis Uriel Victoria López</span></div>
+      <div class="row"><span class="lbl">Fecha de entrega</span><span class="val">18 de octubre de 2026</span></div>
     </div>
     <div class="url">asummertenshi.studio</div>
   </div>
 </body></html>`);
-await page.waitForTimeout(300);
+await page.evaluate(() => document.fonts.ready);
+await page.waitForTimeout(400);
 await page.screenshot({ path: `${outDir}/portada.png` });
-console.log('portada.png');
+console.log('portada.png generada');
 await browser.close();

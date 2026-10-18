@@ -18,21 +18,17 @@
 .brand {
   display: inline-flex;
   align-items: center;
-  gap: 0.6rem;
   text-decoration: none;
 }
 
-.brandName {
-  font-family: var(--font-display);
-  font-size: 1.15rem;
-  font-weight: 700;
-  letter-spacing: 0.04em;
-  background: linear-gradient(90deg, #ffd6e0, #ff85a1, #ffb3c6, #e8607a, #ffd6e0);
-  background-size: 300% 300%;
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
+.brandImg {
+  height: 54px;
+  width: auto;
+  display: block;
+  filter: drop-shadow(0 2px 12px rgba(232, 96, 122, 0.4));
+  transition: transform var(--dur-fast) var(--ease-out);
 }
+.brand:hover .brandImg { transform: scale(1.05); }
 
 .siteLinks {
   list-style: none;

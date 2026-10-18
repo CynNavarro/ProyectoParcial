@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { Mail, Twitter, ExternalLink, ArrowRight } from "lucide-react";
+import logoImg from "../assets/logo-oficial.png";
 import styles from "./Footer.module.css";
 
 const contacts = [
@@ -36,7 +37,7 @@ export default function Footer() {
     <footer className={styles.footer}>
       <div className={styles.top}>
         <Link to="/" className={styles.brand} aria-label="ASummerTenshi, go to homepage">
-          <span className={styles.brandName}>ASummerTenshi</span>
+          <img src={logoImg} alt="ASummerTenshi" className={styles.brandImg} height="54" />
         </Link>
 
         <nav aria-label="Footer navigation" className={styles.siteNav}>

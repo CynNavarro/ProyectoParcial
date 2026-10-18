@@ -12,7 +12,7 @@ Diseña una portada a página completa con esta composición (los datos los cono
 
 - Fondo negro cálido `#080406` con el patrón de rombos rosas pastel usado en el hero del sitio, a baja opacidad (≈16 %) y un degradado radial oscuro encima para legibilidad. La textura está en `evidencias/recursos-graficos/textura-fondo.png` (usarla como referencia visual o recrearla con la imagen original `src/assets/img/FONDO_1.webp` si tienes acceso al proyecto).
 - Marco de línea fina rosa `rgba(255,179,198,0.35)` con esquinas redondeadas, inset ≈46 px.
-- Isotipo del logo centrado arriba: `evidencias/logo/logo.svg` (renderizar vectorial, ≈190 px, con sombra rosa suave).
+- Logotipo oficial centrado arriba: `evidencias/logo/logo.png` (PNG con transparencia, mostrar a ≈300 px de ancho, con sombra rosa suave).
 - Sobre el logo, rótulo en mayúsculas espaciadas: **ENTREGABLE 2 · SITIO WEB** (color `#FF85A1`).
 - Título: **ASummerTenshi** en Bricolage Grotesque 800, ≈76 pt, con degradado rosa pastel `#FFD6E0 → #FF85A1 → #FFB3C6 → #E8607A`.
 - Subtítulo: **VTuber Artist & Live 2D Rigger** (≈25 pt, `#FFF0F3` al 82 %).
@@ -61,39 +61,38 @@ La comprobación se realizó el 18 de octubre de 2026 desde un navegador automat
 ## 2. Logotipo del proyecto
 
 **Imagen 3** — insertar primero en esta sección, ancho completo:
-- Ruta: `evidencias/logo/logo-wordmark.png` (900 × 260)
-- Qué es: logotipo completo sobre fondo oscuro del sitio: isotipo (halo inclinado + aro con destello) a la izquierda y el nombre de marca «ASummerTenshi» con degradado rosa a la derecha.
-- Pie sugerido: «Figura 3. Logotipo completo: isotipo a la izquierda y nombre de marca a la derecha, sobre el fondo oscuro del sitio.»
+- Ruta: `evidencias/logo/logo-512.png` (logo a ≈512 px de ancho, fondo transparente)
+- Qué es: logotipo oficial de la marca: el nombre «SUMMER TENSHI» en letras sticker con relleno degradado rosa a celeste, sobre una nube pastel, con alas blancas a los lados, halo dorado inclinado, destellos rosas y la escritura en katakana «サマテン» (abreviatura de Summer Tenshi) bajo el nombre.
+- Pie sugerido: «Figura 3. Logotipo oficial de Summer Tenshi: letras sticker con degradado rosa-celeste, alas, halo y nube, sobre fondo transparente.»
 
 **Texto:**
 
-El logotipo se diseñó como un **isotipo geométrico** formado por tres elementos que resumen la identidad del proyecto:
+El logotipo es una pieza de identidad creada por la propia artista en estética kawaii, que resume el personaje y el nombre de la marca en una sola imagen. Sus elementos y su significado:
 
-- **Halo inclinado:** alude al significado del apodo, pues *tenshi* quiere decir «ángel» en japonés. La inclinación le da movimiento y cercanía, en lugar de la rigidez de un aro perfecto.
-- **Sol con destello central:** representa el verano (*summer*) y el brillo creativo; el destello de cuatro puntas funciona como la chispa que da vida a cada personaje.
-- **Gradiente rosa pastel:** se tomó de la paleta del personaje principal de la marca, de modo que el logo y el modelo VTuber se reconocen como parte de la misma familia visual.
+- **Nombre en letras sticker:** «SUMMER TENSHI» con trazo grueso, relleno en degradado rosa a celeste (tomado del vestuario del personaje) y contorno blanco con sombra lila, como calcomanía. Bajo el nombre aparece «サマテン», la abreviatura en katakana usada por la comunidad japonesa.
+- **Alas y halo:** las alas blancas y el halo dorado inclinado refieren al significado del apodo: *tenshi* es «ángel» en japonés, y el halo evoca además el sol del verano (*summer*).
+- **Nube y destellos:** la nube pastel y los destellos rosas aportan el ambiente soñador e idol, coherente con la paleta del modelo VTuber.
 
-El isotipo transmite los valores de la marca: **dulzura, calidez e identidad propia**. Se aleja de la imagen corporativa fría para acercarse a la estética kawaii propia de la comunidad VTuber, sin perder legibilidad ni sobriedad.
+El logo transmite los valores de la marca: **dulzura, identidad propia y cercanía con la comunidad VTuber**. Se integra en la barra de navegación y en el pie de página del sitio, y convive con la paleta rosa pastel sin competir con el contenido.
 
 **Subtítulo: Adaptabilidad a diferentes tamaños y formatos**
 
-El logo se construyó en formato vectorial (SVG), por lo que escala sin pérdida de calidad desde el favicon de 16 píxeles hasta una portada impresa. Se prepararon versiones para cada contexto:
+El logo se entrega en PNG con canal alfa (fondo transparente), por lo que puede colocarse sobre cualquier fondo del sitio y de los materiales. Se prepararon versiones para cada contexto:
 
 **Tabla:**
 
 | Versión | Tamaño | Uso |
 |---|---|---|
-| Vector editable (SVG) | escalable | Fuente maestra del isotipo y aplicaciones futuras |
-| PNG 512 px | 512 × 512 | Documentos, portadas y redes |
-| PNG 192 px | 192 × 192 | Iconos de aplicación y avatares |
-| PNG 64 px | 64 × 64 | Miniaturas y espacios reducidos |
-| Favicon SVG | 16 a 32 px | Pestaña del navegador, con fondo redondeado para mantener contraste |
-| Con marca (wordmark) | horizontal | Encabezado del sitio y pie de página |
+| PNG maestro (transparencia) | 1312 × 932 | Fuente maestra y aplicaciones futuras |
+| PNG 512 px | ≈512 de ancho | Documentos, portadas y redes |
+| PNG 192 px | ≈192 de ancho | Iconos de aplicación y avatares |
+| PNG 64 px | ≈64 de ancho | Miniaturas y espacios reducidos |
+| Favicon PNG | 128 × 128 | Pestaña del navegador, con fondo oscuro redondeado para mantener contraste |
 
 **Imagen 4** — insertar aquí, 74 % centrada:
 - Ruta: `evidencias/logo/logo-64.png`
-- Qué es: isotipo exportado a 64 × 64 px con fondo transparente, para demostrar legibilidad a tamaño pequeño.
-- Pie sugerido: «Figura 4. El isotipo conserva su forma legible a 64 píxeles; por debajo de ese tamaño se recomienda el favicon simplificado.»
+- Qué es: logo exportado a ≈64 px de ancho con fondo transparente, para demostrar legibilidad a tamaño pequeño.
+- Pie sugerido: «Figura 4. El logotipo conserva sus formas legibles a 64 píxeles de ancho; en la barra del sitio se muestra a 44 píxeles de alto.»
 
 ---
 
@@ -396,13 +395,12 @@ La redacción de este documento se revisó conforme a la *Nueva gramática de la
 | `evidencias/capturas-sitio/07-contacto-desktop.png` | Contact, escritorio | 9 (Fig. 18) |
 | `evidencias/capturas-sitio/07-contacto-mobile.png` | Contact, móvil | 9 (Fig. 19) |
 | `evidencias/capturas-sitio/08-menu-mobile.png` | Menú móvil abierto | 7 (Fig. 14) |
-| `evidencias/logo/logo.svg` | Isotipo vectorial editable | portada |
-| `evidencias/logo/logo-wordmark.png` | Logo con marca | 2 (Fig. 3) |
-| `evidencias/logo/logo-512.png` | Isotipo 512 px | respaldo |
-| `evidencias/logo/logo-192.png` | Isotipo 192 px | respaldo |
-| `evidencias/logo/logo-64.png` | Isotipo 64 px | 2 (Fig. 4) |
-| `evidencias/logo/logo-512-sobre-oscuro.png` | Isotipo sobre fondo oscuro | respaldo |
-| `evidencias/logo/favicon.svg` | Favicon del sitio | respaldo |
+| `evidencias/logo/logo.png` | Logotipo oficial (PNG con transparencia) | portada |
+| `evidencias/logo/logo-512.png` | Logo a ≈512 px | 2 (Fig. 3) |
+| `evidencias/logo/logo-192.png` | Logo a ≈192 px | respaldo |
+| `evidencias/logo/logo-64.png` | Logo a ≈64 px | 2 (Fig. 4) |
+| `evidencias/logo/logo-512-sobre-oscuro.png` | Logo sobre fondo oscuro | respaldo |
+| `evidencias/logo/favicon.png` | Favicon del sitio | respaldo |
 | `evidencias/esquema-final/esquema-final.png` | Mapa del sitio (raster) | 10 (Fig. 21) |
 | `evidencias/esquema-final/esquema-final.svg` | Mapa del sitio (vector) | respaldo |
 | `evidencias/recursos-graficos/paleta-colores.png` | Paleta con HEX y RGB | 6 (Fig. 11) |
