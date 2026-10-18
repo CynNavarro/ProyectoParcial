@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="ASummerTenshi">
+  <defs>
+    <linearGradient id="pk" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffd6e0"/>
+      <stop offset="0.5" stop-color="#ff85a1"/>
+      <stop offset="1" stop-color="#e8607a"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Halo de ángel flotando sobre el sol -->
+  <ellipse cx="36" cy="14" rx="15" ry="5"
+           fill="none" stroke="url(#pk)" stroke-width="3.4"
+           transform="rotate(-6 36 14)"/>
+
+  <!-- Sol: aro con brillo de verano -->
+  <circle cx="36" cy="42" r="15" fill="none"
+          stroke="url(#pk)" stroke-width="3.2"/>
+
+  <!-- Destello central: estrella de cuatro puntas -->
+  <path d="M36 32.5 C36.8 37 37.8 38 42.5 39
+           C37.8 39.8 36.8 40.8 36 45.5
+           C35.2 40.8 34.2 39.8 29.5 39
+           C34.2 38 35.2 37 36 32.5 Z"
+        fill="url(#pk)"/>
+</svg>

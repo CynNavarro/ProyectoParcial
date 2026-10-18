@@ -7,22 +7,19 @@
     </linearGradient>
   </defs>
 
-  <!-- Alas (Tenshi = ángel): trazo fino, puntas hacia arriba -->
-  <path d="M22 30 C12 27 7 19 9 10 C13 18 20 21 27 22"
-        fill="none" stroke="url(#pk)" stroke-width="3.2"
-        stroke-linecap="round"/>
-  <path d="M50 30 C60 27 65 19 63 10 C59 18 52 21 45 22"
-        fill="none" stroke="url(#pk)" stroke-width="3.2"
-        stroke-linecap="round"/>
+  <!-- Halo de ángel flotando sobre el sol -->
+  <ellipse cx="36" cy="14" rx="15" ry="5"
+           fill="none" stroke="url(#pk)" stroke-width="3.4"
+           transform="rotate(-6 36 14)"/>
 
-  <!-- Halo: aro que evoca sol de verano -->
-  <circle cx="36" cy="39" r="15.5" fill="none"
+  <!-- Sol: aro con brillo de verano -->
+  <circle cx="36" cy="42" r="15" fill="none"
           stroke="url(#pk)" stroke-width="3.2"/>
 
   <!-- Destello central: estrella de cuatro puntas -->
-  <path d="M36 29.5 C36.8 34 37.8 35.2 42.5 36
-           C37.8 36.8 36.8 38 36 42.5
-           C35.2 38 34.2 36.8 29.5 36
-           C34.2 35.2 35.2 34 36 29.5 Z"
+  <path d="M36 32.5 C36.8 37 37.8 38 42.5 39
+           C37.8 39.8 36.8 40.8 36 45.5
+           C35.2 40.8 34.2 39.8 29.5 39
+           C34.2 38 35.2 37 36 32.5 Z"
         fill="url(#pk)"/>
 </svg>
