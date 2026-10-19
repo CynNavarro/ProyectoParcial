@@ -349,3 +349,13 @@
 
   .overlayTitle { font-size: 1rem; }
 }
+
+/* ── Acciones del visor ampliado ───────────────────────────── */
+.lightboxCtas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-sm);
+  margin-top: var(--space-md);
+  justify-content: center;
+}
+

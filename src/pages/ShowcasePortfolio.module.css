@@ -147,3 +147,15 @@
   50%  { background-position: 100% 50%; }
   100% { background-position: 0% 50%; }
 }
+
+/* ── CTA contextual bajo cada video ────────────────────────── */
+.cardCta {
+  margin-left: auto;
+}
+@media (max-width: 640px) {
+  .cardCta {
+    margin-left: 0;
+    width: 100%;
+  }
+}
+

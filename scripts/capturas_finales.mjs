@@ -20,6 +20,18 @@ const ROUTES = [
   ['/contact', '07-contacto'],
 ];
 
+async function saveShot(page, path, opts = {}) {
+  for (let attempt = 1; attempt <= 4; attempt++) {
+    try {
+      await page.screenshot({ path, ...opts });
+      return;
+    } catch (e) {
+      if (attempt === 4) throw e;
+      await new Promise((r) => setTimeout(r, 2000));
+    }
+  }
+}
+
 async function revealAll(page) {
   await page.evaluate(async () => {
     const step = 700;
@@ -41,8 +53,8 @@ for (const [route, name] of ROUTES) {
   await dp.goto(BASE + route, { waitUntil: 'networkidle', timeout: 60000 });
   await dp.waitForTimeout(500);
   await revealAll(dp);
-  await dp.screenshot({ path: `${EV}/${name}-desktop.png`, fullPage: true });
-  await dp.screenshot({ path: `${DOC}/${name}-desktop.png` });
+  await saveShot(dp, `${EV}/${name}-desktop.png`, { fullPage: true });
+  await saveShot(dp, `${DOC}/${name}-desktop.png`);
   console.log(`${name}-desktop`);
 }
 await desktop.close();
@@ -54,8 +66,8 @@ for (const [route, name] of ROUTES) {
   await mp.goto(BASE + route, { waitUntil: 'networkidle', timeout: 60000 });
   await mp.waitForTimeout(500);
   await revealAll(mp);
-  await mp.screenshot({ path: `${EV}/${name}-mobile.png` });
-  await mp.screenshot({ path: `${DOC}/${name}-mobile.png` });
+  await saveShot(mp, `${EV}/${name}-mobile.png`);
+  await saveShot(mp, `${DOC}/${name}-mobile.png`);
   console.log(`${name}-mobile`);
 }
 
@@ -66,8 +78,8 @@ await mp2.goto(BASE + '/', { waitUntil: 'networkidle', timeout: 60000 });
 await mp2.waitForTimeout(600);
 await mp2.click('button[aria-label="Abrir menú"]');
 await mp2.waitForTimeout(2000);
-await mp2.screenshot({ path: `${EV}/08-menu-mobile.png` });
-await mp2.screenshot({ path: `${DOC}/08-menu-mobile.png` });
+await saveShot(mp2, `${EV}/08-menu-mobile.png`);
+await saveShot(mp2, `${DOC}/08-menu-mobile.png`);
 console.log('08-menu-mobile');
 await menuCtx.close();
 

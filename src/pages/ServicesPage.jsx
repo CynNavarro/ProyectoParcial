@@ -1,4 +1,6 @@
 import { motion, useInView } from 'framer-motion'
+import { Link } from 'react-router-dom'
+import { ArrowRight, ExternalLink } from 'lucide-react'
 import { useRef } from 'react'
 import fondoImg   from '../assets/img/FONDO_1.webp'
 import imgRigging from '../assets/img/SERVICES-seccion1-LIVE2DRIGGING+ART.webp'
@@ -240,6 +242,24 @@ export default function ServicesPage() {
                   />
                 </motion.div>
               )}
+
+              {/* Acciones contextuales */}
+              <motion.div className={styles.ctaRow} variants={itemVariants}>
+                <Link to="/contact" className="btn btn--accent btn--sm">
+                  Start a commission
+                  <ArrowRight size={15} strokeWidth={2} aria-hidden="true" />
+                </Link>
+                <a
+                  href="https://vgen.co/ASummerTenshi"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn btn--ghost btn--sm"
+                  aria-label="Profile on VGen, opens in a new tab"
+                >
+                  Profile on VGen
+                  <ExternalLink size={14} strokeWidth={2} aria-hidden="true" />
+                </a>
+              </motion.div>
             </AnimatedSection>
           ))}
         </div>

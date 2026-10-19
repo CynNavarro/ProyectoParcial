@@ -1,5 +1,7 @@
 import { useRef, useState } from 'react'
+import { Link } from 'react-router-dom'
 import { motion, AnimatePresence, useInView } from 'framer-motion'
+import { ArrowRight, FileText } from 'lucide-react'
 import fondoImg from '../assets/img/FONDO_1.webp'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
@@ -141,6 +143,16 @@ export default function PortfolioPage() {
               <div className={styles.lightboxInfo}>
                 <h2 className={styles.lightboxTitle}>{selected.title}</h2>
                 <p className={styles.lightboxDesc}>{selected.desc}</p>
+                <div className={styles.lightboxCtas}>
+                  <Link to="/contact" className="btn btn--accent btn--sm">
+                    Commission something like this
+                    <ArrowRight size={15} strokeWidth={2} aria-hidden="true" />
+                  </Link>
+                  <Link to="/terms" className="btn btn--ghost btn--sm">
+                    Terms of Service
+                    <FileText size={14} strokeWidth={2} aria-hidden="true" />
+                  </Link>
+                </div>
               </div>
             </motion.div>
           </motion.div>

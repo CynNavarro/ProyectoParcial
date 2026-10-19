@@ -1,5 +1,7 @@
 import { useRef } from 'react'
+import { Link } from 'react-router-dom'
 import { motion, useInView } from 'framer-motion'
+import { ArrowRight } from 'lucide-react'
 import fondoImg from '../assets/img/FONDO_1.webp'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
@@ -58,6 +60,10 @@ function VideoCard({ video, index }) {
           {String(video.id).padStart(2, '0')}.
         </span>
         <h3 className={styles.cardTitle}>{video.title}</h3>
+        <Link to="/contact" className={`btn btn--ghost btn--sm ${styles.cardCta}`}>
+          Start a commission
+          <ArrowRight size={15} strokeWidth={2} aria-hidden="true" />
+        </Link>
       </div>
     </motion.article>
   )

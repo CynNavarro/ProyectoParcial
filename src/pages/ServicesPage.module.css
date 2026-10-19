@@ -215,3 +215,12 @@
     gap: 1.5rem;
   }
 }
+
+/* ── Acciones contextuales de cada servicio ────────────────── */
+.ctaRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-sm);
+  margin-top: var(--space-md);
+}
+

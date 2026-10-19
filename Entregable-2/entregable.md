@@ -277,6 +277,7 @@ La navegación global es persistente y queda fija al hacer scroll. En escritorio
 | Banda de contacto | Panel oscuro con brillo rosa superior y doble marco, con la invitación a iniciar la comisión y botón directo a la página Contact. |
 | Galería del portafolio | Siete obras con descripción en el cursor y visor ampliado (lightbox) con título y texto alternativo. |
 | Formulario de contacto | Campos de nombre, correo, tipo de servicio y detalles; al enviar, abre el cliente de correo con el mensaje prellenado dirigido al correo de comisiones. |
+| Acciones contextuales | Cada categoría de Services termina con «Start a commission» y «Profile on VGen»; el visor ampliado del portafolio ofrece «Commission something like this» y «Terms of Service»; cada video del showcase incluye «Start a commission». |
 | Canales directos | Tres tarjetas centradas (correo, X y VGen) con nota sobre el uso recomendado de cada una. |
 | Pie de página | Marca con logotipo, enlaces de secciones, botón “Start a commission” y la fila de canales de comunicación en todas las rutas. |
 | Detalles técnicos | Salto al contenido para lectores de pantalla, foco visible en rosa, respeto de “reducir movimiento”, imágenes con texto alternativo y rutas con encabezados ordenados. |
@@ -411,3 +412,6 @@ La redacción de este documento se revisó conforme a la *Nueva gramática de la
 | `documento/img/7_CELES_VTUBER.webp` | Ilustración «Celes Vtuber» | 5 (Fig. 7) |
 | `documento/img/SERVICES-seccion4-EMOTES.webp` | Arte de emotes | 5 (Fig. 8) |
 | `documento/img/SERVICES-seccion1-LIVE2DRIGGING+ART.webp` | Arte del paquete Live 2D | 5 (Fig. 9) |
+| `documento/img/cta-servicios.png` | Primer plano de los CTA de una categoría de servicio | 8 (apoyo) |
+| `documento/img/cta-portafolio.png` | Visor ampliado con sus dos CTA | 8 (apoyo) |
+| `documento/img/cta-showcase.png` | CTA bajo un video del showcase | 8 (apoyo) |
